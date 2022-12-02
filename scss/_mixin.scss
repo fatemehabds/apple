@@ -1,0 +1,48 @@
+@mixin atag(
+  $width,
+  $height,
+  $pad,
+  $bgcolor,
+  $line,
+  $color,
+  $display,
+  $size,
+  $textdec,
+  $transiation
+) {
+  width: $width;
+  height: $height;
+  padding: $pad;
+  background-color: $bgcolor;
+  line-height: $line;
+  color: $color;
+  display: $display;
+  font-size: $size;
+  text-decoration: $textdec;
+  transition: $transiation;
+  -webkit-transition: $transiation;
+  -moz-transition: $transiation;
+  -ms-transition: $transiation;
+  -o-transition: $transiation;
+}
+@mixin red(
+  $width,
+  $height,
+  $url,
+  $repeat,
+  $pos,
+  $display,
+  $pad,
+  $boxsize,
+  $justify
+) {
+  width: $width;
+  height: $height;
+  background-image: $url;
+  background-repeat: $repeat;
+  background-position: $pos;
+  display: $display;
+  padding: $pad;
+  box-sizing: $boxsize;
+  justify-content: $justify;
+}
