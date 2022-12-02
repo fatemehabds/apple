@@ -336,3 +336,80 @@ body {
             body > div.pods > div:nth-last-of-type(2) > div > div > a:hover {
               text-decoration: underline;
               font-size: 22px; }
+  body > div.dark {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px; }
+    body > div.dark > div:nth-last-of-type(1) {
+      width: 49%;
+      height: 590px;
+      background-image: url(../image/dark2.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 40px;
+      box-sizing: border-box;
+      justify-content: center; }
+      body > div.dark > div:nth-last-of-type(1) > div {
+        text-align: center; }
+        body > div.dark > div:nth-last-of-type(1) > div > h4 {
+          font-size: 40px;
+          color: white; }
+        body > div.dark > div:nth-last-of-type(1) > div > div {
+          position: relative;
+          width: 200px;
+          height: 40px; }
+          body > div.dark > div:nth-last-of-type(1) > div > div > p {
+            font-size: 22px;
+            text-align: center;
+            color: white;
+            display: flex; }
+            body > div.dark > div:nth-last-of-type(1) > div > div > p > img {
+              display: block;
+              position: absolute;
+              top: 0px;
+              right: 0; }
+    body > div.dark > div:nth-last-of-type(2) {
+      width: 49%;
+      height: 590px;
+      background-image: url(../image/dark1.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 50px;
+      box-sizing: border-box;
+      justify-content: center; }
+      body > div.dark > div:nth-last-of-type(2) > div {
+        text-align: center; }
+        body > div.dark > div:nth-last-of-type(2) > div > h4 {
+          font-size: 40px;
+          color: white; }
+        body > div.dark > div:nth-last-of-type(2) > div > p {
+          font-size: 22px;
+          text-align: center;
+          color: white; }
+        body > div.dark > div:nth-last-of-type(2) > div > div {
+          display: flex;
+          gap: 55px;
+          justify-content: center;
+          margin-top: 10px; }
+          body > div.dark > div:nth-last-of-type(2) > div > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+            body > div.dark > div:nth-last-of-type(2) > div > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
