@@ -146,7 +146,261 @@ body {
       }
     }
   }
+
   > div.pro {
-    background-image: url(../image/hero_iphone14pro__e5xbgo5ffhg2_large.jpg);
+    @include red(
+      100%,
+      600px,
+      url(../image/hero_iphone14pro__e5xbgo5ffhg2_large.jpg),
+      no-repeat,
+      center,
+      flex,
+      40px,
+      border-box,
+      center
+    );
+    margin-top: 5px;
+    > div {
+      width: auto;
+      > h2 {
+        color: $wcolor;
+        font-size: 60px;
+        text-align: center;
+      }
+      > p {
+        color: $wcolor;
+        text-align: center;
+        font-size: 28px;
+        margin-top: 5px;
+      }
+      > div {
+        display: flex;
+        gap: 55px;
+        justify-content: center;
+        margin-top: 6px;
+        > a {
+          @include atag(
+            none,
+            none,
+            none,
+            none,
+            none,
+            #0066cc,
+            block,
+            21px,
+            none,
+            300ms
+          );
+          &:hover {
+            text-decoration: underline;
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+  // $width,
+  // $height,
+  // $url,
+  // $repeat,
+  // $pos,
+  // $display,
+  // $pad,
+  // $boxsize,
+  // $justify
+  > div.Give {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    > div:nth-last-of-type(1) {
+      @include red(
+        49%,
+        590px,
+        url(../image/g1.jpg),
+        no-repeat,
+        center,
+        flex,
+        50px,
+        border-box,
+        center
+      );
+      position: relative;
+      > div {
+        position: absolute;
+        bottom: 50px;
+        text-align: center;
+        > h2 {
+          color: $wcolor;
+          font-size: 50px;
+        }
+        > p {
+          color: $wcolor;
+          font-size: 22px;
+        }
+        > a {
+          @include atag(
+            none,
+            none,
+            none,
+            none,
+            none,
+            #0066cc,
+            block,
+            19px,
+            none,
+            300ms
+          );
+          margin-top: 20px;
+          &:hover {
+            text-decoration: underline;
+            font-size: 22px;
+          }
+        }
+      }
+    }
+    > div:nth-last-of-type(2) {
+      @include red(
+        49%,
+        590px,
+        url(../image/promo_apple_watch_series_8__ch7rexplmihe_large.jpg),
+        no-repeat,
+        center,
+        flex,
+        50px,
+        border-box,
+        center
+      );
+      > div {
+        text-align: center;
+        > p {
+          color: $wcolor;
+          font-size: 22px;
+          text-align: center;
+        }
+        > div {
+          display: flex;
+          gap: 55px;
+          justify-content: center;
+          margin-top: 10px;
+          > a {
+            @include atag(
+              none,
+              none,
+              none,
+              none,
+              none,
+              #0066cc,
+              block,
+              19px,
+              none,
+              300ms
+            );
+            &:hover {
+              text-decoration: underline;
+              font-size: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+  > div.pods {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    > div:nth-last-of-type(1) {
+      @include red(
+        49%,
+        590px,
+        url(../image/pod2.jpg),
+        no-repeat,
+        center,
+        flex,
+        40px,
+        border-box,
+        center
+      );
+
+      > div {
+        bottom: 50px;
+        text-align: center;
+        > h2 {
+          font-size: 50px;
+        }
+        > p {
+          font-size: 22px;
+        }
+        > a {
+          @include atag(
+            none,
+            none,
+            none,
+            none,
+            none,
+            #0066cc,
+            block,
+            19px,
+            none,
+            300ms
+          );
+          margin-top: 15px;
+          &:hover {
+            text-decoration: underline;
+            font-size: 22px;
+          }
+        }
+      }
+    }
+    > div:nth-last-of-type(2) {
+      @include red(
+        49%,
+        590px,
+        url(../image/pod1.jpg),
+        no-repeat,
+        center,
+        flex,
+        50px,
+        border-box,
+        center
+      );
+      > div {
+        text-align: center;
+        > h4 {
+          font-size: 60px;
+        }
+        > p {
+          font-size: 22px;
+          text-align: center;
+        }
+        > div {
+          display: flex;
+          gap: 55px;
+          justify-content: center;
+          margin-top: 10px;
+          > a {
+            @include atag(
+              none,
+              none,
+              none,
+              none,
+              none,
+              #0066cc,
+              block,
+              19px,
+              none,
+              300ms
+            );
+            &:hover {
+              text-decoration: underline;
+              font-size: 22px;
+            }
+          }
+        }
+      }
+    }
   }
 }
