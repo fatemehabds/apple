@@ -446,6 +446,25 @@ body {
             }
           }
         }
+        > a {
+          @include atag(
+            none,
+            none,
+            none,
+            none,
+            none,
+            #0066cc,
+            block,
+            19px,
+            none,
+            300ms
+          );
+          margin-top: 15px;
+          &:hover {
+            text-decoration: underline;
+            font-size: 22px;
+          }
+        }
       }
     }
     > div:nth-last-of-type(2) {

@@ -371,6 +371,25 @@ body {
               position: absolute;
               top: 0px;
               right: 0; }
+        body > div.dark > div:nth-last-of-type(1) > div > a {
+          width: none;
+          height: none;
+          padding: none;
+          background-color: none;
+          line-height: none;
+          color: #0066cc;
+          display: block;
+          font-size: 19px;
+          text-decoration: none;
+          transition: 300ms;
+          -webkit-transition: 300ms;
+          -moz-transition: 300ms;
+          -ms-transition: 300ms;
+          -o-transition: 300ms;
+          margin-top: 15px; }
+          body > div.dark > div:nth-last-of-type(1) > div > a:hover {
+            text-decoration: underline;
+            font-size: 22px; }
     body > div.dark > div:nth-last-of-type(2) {
       width: 49%;
       height: 590px;
