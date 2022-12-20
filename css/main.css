@@ -2,538 +2,3737 @@
   margin: 0;
   padding: 0; }
 
+@media screen and (min-width: 1400px) {
+  body {
+    font-family: ps; }
+    body > div.menu {
+      width: 100%;
+      height: 45px;
+      background-color: #313132; }
+      body > div.menu > nav {
+        width: inherit;
+        height: inherit; }
+        body > div.menu > nav > ul {
+          list-style: none;
+          display: flex;
+          width: inherit;
+          height: inherit;
+          justify-content: center;
+          gap: 0 40px; }
+          body > div.menu > nav > ul > li {
+            width: auto;
+            height: inherit; }
+            body > div.menu > nav > ul > li > a {
+              width: auto;
+              height: inherit;
+              padding: 0 5px;
+              background-color: #313132;
+              line-height: 45px;
+              color: #b9b8b8;
+              display: block;
+              font-size: 13px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.menu > nav > ul > li > a:hover {
+                color: white;
+                font-size: 15px; }
+    body > div.red {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/choose_red_hero__bnqcrkgq6kia_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 60px;
+      box-sizing: border-box;
+      justify-content: center; }
+      body > div.red > div {
+        width: auto; }
+        body > div.red > div h2 {
+          align-content: center;
+          font-size: 60px; }
+        body > div.red > div p {
+          text-align: center;
+          font-size: 30px;
+          margin-top: 8px; }
+        body > div.red > div > a {
+          width: none;
+          height: none;
+          padding: none;
+          background-color: none;
+          line-height: none;
+          color: #0066cc;
+          display: block;
+          font-size: 21px;
+          text-decoration: none;
+          transition: 300ms;
+          -webkit-transition: 300ms;
+          -moz-transition: 300ms;
+          -ms-transition: 300ms;
+          -o-transition: 300ms;
+          text-align: center;
+          margin-top: 20px; }
+          body > div.red > div > a:hover {
+            text-decoration: underline;
+            font-size: 24px; }
+    body > div.big {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/hero_iphone14__fjmsqstr1ceq_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 60px;
+      box-sizing: border-box;
+      justify-content: center; }
+      body > div.big > div {
+        width: auto; }
+        body > div.big > div > h2 {
+          text-align: center;
+          font-size: 60px; }
+        body > div.big > div p {
+          text-align: center;
+          font-size: 28px;
+          margin-top: 5px; }
+        body > div.big > div > div {
+          display: flex;
+          gap: 55px;
+          justify-content: center;
+          margin-top: 6px; }
+          body > div.big > div > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 21px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+            body > div.big > div > div > a:hover {
+              text-decoration: underline;
+              font-size: 24px; }
+    body > div.pro {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/hero_iphone14pro__e5xbgo5ffhg2_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 40px;
+      box-sizing: border-box;
+      justify-content: center;
+      margin-top: 5px; }
+      body > div.pro > div {
+        width: auto; }
+        body > div.pro > div > h2 {
+          color: white;
+          font-size: 60px;
+          text-align: center; }
+        body > div.pro > div > p {
+          color: white;
+          text-align: center;
+          font-size: 28px;
+          margin-top: 5px; }
+        body > div.pro > div > div {
+          display: flex;
+          gap: 55px;
+          justify-content: center;
+          margin-top: 6px; }
+          body > div.pro > div > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 21px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+            body > div.pro > div > div > a:hover {
+              text-decoration: underline;
+              font-size: 24px; }
+    body > div.Give {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.Give > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/g1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center;
+        position: relative; }
+        body > div.Give > div:nth-last-of-type(1) > div {
+          position: absolute;
+          bottom: 50px;
+          text-align: center; }
+          body > div.Give > div:nth-last-of-type(1) > div > h2 {
+            color: white;
+            font-size: 50px; }
+          body > div.Give > div:nth-last-of-type(1) > div > p {
+            color: white;
+            font-size: 22px; }
+          body > div.Give > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 20px; }
+            body > div.Give > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.Give > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.Give > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.Give > div:nth-last-of-type(2) > div > p {
+            color: white;
+            font-size: 22px;
+            text-align: center; }
+          body > div.Give > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.Give > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.Give > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.pods {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.pods > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/pod2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 40px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.pods > div:nth-last-of-type(1) > div {
+          bottom: 50px;
+          text-align: center; }
+          body > div.pods > div:nth-last-of-type(1) > div > h2 {
+            font-size: 50px; }
+          body > div.pods > div:nth-last-of-type(1) > div > p {
+            font-size: 22px; }
+          body > div.pods > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 15px; }
+            body > div.pods > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.pods > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/pod1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.pods > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.pods > div:nth-last-of-type(2) > div > h4 {
+            font-size: 60px; }
+          body > div.pods > div:nth-last-of-type(2) > div > p {
+            font-size: 22px;
+            text-align: center; }
+          body > div.pods > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.pods > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.pods > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.dark {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.dark > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/dark2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 40px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.dark > div:nth-last-of-type(1) > div {
+          text-align: center; }
+          body > div.dark > div:nth-last-of-type(1) > div > h4 {
+            font-size: 40px;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(1) > div > div {
+            position: relative;
+            width: 200px;
+            height: 40px; }
+            body > div.dark > div:nth-last-of-type(1) > div > div > p {
+              font-size: 22px;
+              text-align: center;
+              color: white;
+              display: flex; }
+              body > div.dark > div:nth-last-of-type(1) > div > div > p > img {
+                display: block;
+                position: absolute;
+                top: 0px;
+                right: 0; }
+          body > div.dark > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 15px; }
+            body > div.dark > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.dark > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/dark1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.dark > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.dark > div:nth-last-of-type(2) > div > h4 {
+            font-size: 40px;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(2) > div > p {
+            font-size: 22px;
+            text-align: center;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.dark > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.dark > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.slider {
+      width: 95%;
+      height: 700px;
+      background-color: #b9b8b8;
+      margin: 5px auto; }
+      body > div.slider .swiper {
+        width: 100%;
+        height: 100%; }
+      body > div.slider .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center; }
+      body > div.slider .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    body > footer > div.text {
+      width: 100%;
+      height: 890px;
+      background-color: #f5f5f7;
+      display: flex;
+      margin-bottom: unset;
+      flex-direction: column; }
+      body > footer > div.text > div.about {
+        width: 70%;
+        height: 270px;
+        color: #86868b;
+        margin: 40px auto; }
+        body > footer > div.text > div.about > p {
+          font-size: 13px;
+          line-height: 1.3;
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: justify; }
+          body > footer > div.text > div.about > p > span:nth-last-of-type(1) {
+            color: #6d6d6d;
+            font-weight: 600; }
+            body > footer > div.text > div.about > p > span:nth-last-of-type(1) > span {
+              color: #313131; }
+          body > footer > div.text > div.about > p > a {
+            text-decoration: none;
+            color: #535252; }
+            body > footer > div.text > div.about > p > a:hover {
+              text-decoration: underline; }
+      body > footer > div.text > hr {
+        width: 70%;
+        margin: 8px auto;
+        size: 0.2; }
+      body > footer > div.text > div.end {
+        width: 70%;
+        height: 430px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 5px; }
+        body > footer > div.text > div.end > div > a {
+          display: block;
+          text-decoration: none;
+          width: auto;
+          height: 30px;
+          font-size: 13px;
+          color: #666666; }
+          body > footer > div.text > div.end > div > a:hover {
+            text-decoration: underline;
+            color: #313132; }
+        body > footer > div.text > div.end > div > span {
+          font-size: 13px;
+          width: auto;
+          height: 30px;
+          display: block; }
+    body > footer > div.copy {
+      width: 75%;
+      height: 130px;
+      margin: 0 auto; }
+      body > footer > div.copy > div:nth-last-of-type(2) > p {
+        font-size: 13px;
+        color: #6a6a6a; }
+        body > footer > div.copy > div:nth-last-of-type(2) > p > a {
+          text-decoration: none;
+          color: #0066cc; }
+          body > footer > div.copy > div:nth-last-of-type(2) > p > a:hover {
+            text-decoration: underline; }
+      body > footer > div.copy > hr {
+        size: 2px;
+        margin-top: 5px; }
+      body > footer > div.copy > div:nth-last-of-type(1) {
+        height: 26px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        color: #6a6a6a; } }
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  body {
+    font-family: ps; }
+    body > div.menu {
+      width: 100%;
+      height: 45px;
+      background-color: #313132; }
+      body > div.menu > nav {
+        width: inherit;
+        height: inherit; }
+        body > div.menu > nav > ul {
+          list-style: none;
+          display: flex;
+          width: inherit;
+          height: inherit;
+          justify-content: center;
+          gap: 0 40px; }
+          body > div.menu > nav > ul > li {
+            width: auto;
+            height: inherit; }
+            body > div.menu > nav > ul > li > a {
+              width: auto;
+              height: inherit;
+              padding: 0 5px;
+              background-color: #313132;
+              line-height: 45px;
+              color: #b9b8b8;
+              display: block;
+              font-size: 13px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.menu > nav > ul > li > a:hover {
+                color: white;
+                font-size: 15px; }
+    body > div.red {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/choose_red_hero__bnqcrkgq6kia_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 60px;
+      box-sizing: border-box;
+      justify-content: center; }
+      body > div.red > div {
+        width: auto; }
+        body > div.red > div h2 {
+          align-content: center;
+          font-size: 60px; }
+        body > div.red > div p {
+          text-align: center;
+          font-size: 30px;
+          margin-top: 8px; }
+        body > div.red > div > a {
+          width: none;
+          height: none;
+          padding: none;
+          background-color: none;
+          line-height: none;
+          color: #0066cc;
+          display: block;
+          font-size: 21px;
+          text-decoration: none;
+          transition: 300ms;
+          -webkit-transition: 300ms;
+          -moz-transition: 300ms;
+          -ms-transition: 300ms;
+          -o-transition: 300ms;
+          text-align: center;
+          margin-top: 20px; }
+          body > div.red > div > a:hover {
+            text-decoration: underline;
+            font-size: 24px; }
+    body > div.big {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/hero_iphone14__fjmsqstr1ceq_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 60px;
+      box-sizing: border-box;
+      justify-content: center; }
+      body > div.big > div {
+        width: auto; }
+        body > div.big > div > h2 {
+          text-align: center;
+          font-size: 60px; }
+        body > div.big > div p {
+          text-align: center;
+          font-size: 28px;
+          margin-top: 5px; }
+        body > div.big > div > div {
+          display: flex;
+          gap: 55px;
+          justify-content: center;
+          margin-top: 6px; }
+          body > div.big > div > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 21px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+            body > div.big > div > div > a:hover {
+              text-decoration: underline;
+              font-size: 24px; }
+    body > div.pro {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/hero_iphone14pro__e5xbgo5ffhg2_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 40px;
+      box-sizing: border-box;
+      justify-content: center;
+      margin-top: 5px; }
+      body > div.pro > div {
+        width: auto; }
+        body > div.pro > div > h2 {
+          color: white;
+          font-size: 60px;
+          text-align: center; }
+        body > div.pro > div > p {
+          color: white;
+          text-align: center;
+          font-size: 28px;
+          margin-top: 5px; }
+        body > div.pro > div > div {
+          display: flex;
+          gap: 55px;
+          justify-content: center;
+          margin-top: 6px; }
+          body > div.pro > div > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 21px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+            body > div.pro > div > div > a:hover {
+              text-decoration: underline;
+              font-size: 24px; }
+    body > div.Give {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.Give > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/g1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center;
+        position: relative; }
+        body > div.Give > div:nth-last-of-type(1) > div {
+          position: absolute;
+          bottom: 50px;
+          text-align: center; }
+          body > div.Give > div:nth-last-of-type(1) > div > h2 {
+            color: white;
+            font-size: 50px; }
+          body > div.Give > div:nth-last-of-type(1) > div > p {
+            color: white;
+            font-size: 22px; }
+          body > div.Give > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 20px; }
+            body > div.Give > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.Give > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.Give > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.Give > div:nth-last-of-type(2) > div > p {
+            color: white;
+            font-size: 22px;
+            text-align: center; }
+          body > div.Give > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.Give > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.Give > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.pods {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.pods > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/pod2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 40px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.pods > div:nth-last-of-type(1) > div {
+          bottom: 50px;
+          text-align: center; }
+          body > div.pods > div:nth-last-of-type(1) > div > h2 {
+            font-size: 50px; }
+          body > div.pods > div:nth-last-of-type(1) > div > p {
+            font-size: 22px; }
+          body > div.pods > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 15px; }
+            body > div.pods > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.pods > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/pod1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.pods > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.pods > div:nth-last-of-type(2) > div > h4 {
+            font-size: 60px; }
+          body > div.pods > div:nth-last-of-type(2) > div > p {
+            font-size: 22px;
+            text-align: center; }
+          body > div.pods > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.pods > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.pods > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.dark {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.dark > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/dark2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 40px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.dark > div:nth-last-of-type(1) > div {
+          text-align: center; }
+          body > div.dark > div:nth-last-of-type(1) > div > h4 {
+            font-size: 40px;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(1) > div > div {
+            position: relative;
+            width: 200px;
+            height: 40px; }
+            body > div.dark > div:nth-last-of-type(1) > div > div > p {
+              font-size: 22px;
+              text-align: center;
+              color: white;
+              display: flex; }
+              body > div.dark > div:nth-last-of-type(1) > div > div > p > img {
+                display: block;
+                position: absolute;
+                top: 0px;
+                right: 0; }
+          body > div.dark > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 15px; }
+            body > div.dark > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.dark > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/dark1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.dark > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.dark > div:nth-last-of-type(2) > div > h4 {
+            font-size: 40px;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(2) > div > p {
+            font-size: 22px;
+            text-align: center;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.dark > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.dark > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.slider {
+      width: 95%;
+      height: 700px;
+      background-color: #b9b8b8;
+      margin: 5px auto; }
+      body > div.slider .swiper {
+        width: 100%;
+        height: 100%; }
+      body > div.slider .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center; }
+      body > div.slider .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    body > footer > div.text {
+      width: 100%;
+      height: 890px;
+      background-color: #f5f5f7;
+      display: flex;
+      margin-bottom: unset;
+      flex-direction: column; }
+      body > footer > div.text > div.about {
+        width: 70%;
+        height: 270px;
+        color: #86868b;
+        margin: 40px auto; }
+        body > footer > div.text > div.about > p {
+          font-size: 13px;
+          line-height: 1.3;
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: justify; }
+          body > footer > div.text > div.about > p > span:nth-last-of-type(1) {
+            color: #6d6d6d;
+            font-weight: 600; }
+            body > footer > div.text > div.about > p > span:nth-last-of-type(1) > span {
+              color: #313131; }
+          body > footer > div.text > div.about > p > a {
+            text-decoration: none;
+            color: #535252; }
+            body > footer > div.text > div.about > p > a:hover {
+              text-decoration: underline; }
+      body > footer > div.text > hr {
+        width: 70%;
+        margin: 8px auto;
+        size: 0.2; }
+      body > footer > div.text > div.end {
+        width: 70%;
+        height: 430px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 5px; }
+        body > footer > div.text > div.end > div > a {
+          display: block;
+          text-decoration: none;
+          width: auto;
+          height: 30px;
+          font-size: 13px;
+          color: #666666; }
+          body > footer > div.text > div.end > div > a:hover {
+            text-decoration: underline;
+            color: #313132; }
+        body > footer > div.text > div.end > div > span {
+          font-size: 13px;
+          width: auto;
+          height: 30px;
+          display: block; }
+    body > footer > div.copy {
+      width: 75%;
+      height: 130px;
+      margin: 0 auto; }
+      body > footer > div.copy > div:nth-last-of-type(2) > p {
+        font-size: 13px;
+        color: #6a6a6a; }
+        body > footer > div.copy > div:nth-last-of-type(2) > p > a {
+          text-decoration: none;
+          color: #0066cc; }
+          body > footer > div.copy > div:nth-last-of-type(2) > p > a:hover {
+            text-decoration: underline; }
+      body > footer > div.copy > hr {
+        size: 2px;
+        margin-top: 5px; }
+      body > footer > div.copy > div:nth-last-of-type(1) {
+        height: 26px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        color: #6a6a6a; } }
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  body {
+    font-family: ps; }
+    body > div.menu {
+      width: 100%;
+      height: 45px;
+      background-color: #313132; }
+      body > div.menu > nav {
+        width: inherit;
+        height: inherit; }
+        body > div.menu > nav > ul {
+          list-style: none;
+          display: flex;
+          width: inherit;
+          height: inherit;
+          justify-content: center;
+          gap: 0 20px; }
+          body > div.menu > nav > ul > li {
+            width: auto;
+            height: inherit; }
+            body > div.menu > nav > ul > li > a {
+              width: auto;
+              height: inherit;
+              padding: 0 5px;
+              background-color: #313132;
+              line-height: 45px;
+              color: #b9b8b8;
+              display: block;
+              font-size: 13px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.menu > nav > ul > li > a:hover {
+                color: white;
+                font-size: 15px; }
+    body > div.red {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/choose_red_hero__bnqcrkgq6kia_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 60px;
+      box-sizing: border-box;
+      justify-content: center; }
+      body > div.red > div {
+        width: auto; }
+        body > div.red > div h2 {
+          align-content: center;
+          font-size: 60px; }
+        body > div.red > div p {
+          text-align: center;
+          font-size: 30px;
+          margin-top: 8px; }
+        body > div.red > div > a {
+          width: none;
+          height: none;
+          padding: none;
+          background-color: none;
+          line-height: none;
+          color: #0066cc;
+          display: block;
+          font-size: 21px;
+          text-decoration: none;
+          transition: 300ms;
+          -webkit-transition: 300ms;
+          -moz-transition: 300ms;
+          -ms-transition: 300ms;
+          -o-transition: 300ms;
+          text-align: center;
+          margin-top: 20px; }
+          body > div.red > div > a:hover {
+            text-decoration: underline;
+            font-size: 24px; }
+    body > div.big {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/hero_iphone14__fjmsqstr1ceq_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 60px;
+      box-sizing: border-box;
+      justify-content: center; }
+      body > div.big > div {
+        width: auto; }
+        body > div.big > div > h2 {
+          text-align: center;
+          font-size: 60px; }
+        body > div.big > div p {
+          text-align: center;
+          font-size: 28px;
+          margin-top: 5px; }
+        body > div.big > div > div {
+          display: flex;
+          gap: 55px;
+          justify-content: center;
+          margin-top: 6px; }
+          body > div.big > div > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 21px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+            body > div.big > div > div > a:hover {
+              text-decoration: underline;
+              font-size: 24px; }
+    body > div.pro {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/hero_iphone14pro__e5xbgo5ffhg2_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 40px;
+      box-sizing: border-box;
+      justify-content: center;
+      margin-top: 5px; }
+      body > div.pro > div {
+        width: auto; }
+        body > div.pro > div > h2 {
+          color: white;
+          font-size: 60px;
+          text-align: center; }
+        body > div.pro > div > p {
+          color: white;
+          text-align: center;
+          font-size: 28px;
+          margin-top: 5px; }
+        body > div.pro > div > div {
+          display: flex;
+          gap: 55px;
+          justify-content: center;
+          margin-top: 6px; }
+          body > div.pro > div > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 21px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+            body > div.pro > div > div > a:hover {
+              text-decoration: underline;
+              font-size: 24px; }
+    body > div.Give {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.Give > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/g1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center;
+        position: relative; }
+        body > div.Give > div:nth-last-of-type(1) > div {
+          position: absolute;
+          bottom: 50px;
+          text-align: center; }
+          body > div.Give > div:nth-last-of-type(1) > div > h2 {
+            color: white;
+            font-size: 50px; }
+          body > div.Give > div:nth-last-of-type(1) > div > p {
+            color: white;
+            font-size: 22px; }
+          body > div.Give > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 20px; }
+            body > div.Give > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.Give > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.Give > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.Give > div:nth-last-of-type(2) > div > p {
+            color: white;
+            font-size: 22px;
+            text-align: center; }
+          body > div.Give > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.Give > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.Give > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.pods {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.pods > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/pod2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 40px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.pods > div:nth-last-of-type(1) > div {
+          bottom: 50px;
+          text-align: center; }
+          body > div.pods > div:nth-last-of-type(1) > div > h2 {
+            font-size: 50px; }
+          body > div.pods > div:nth-last-of-type(1) > div > p {
+            font-size: 22px; }
+          body > div.pods > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 15px; }
+            body > div.pods > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.pods > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/pod1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.pods > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.pods > div:nth-last-of-type(2) > div > h4 {
+            font-size: 60px; }
+          body > div.pods > div:nth-last-of-type(2) > div > p {
+            font-size: 22px;
+            text-align: center; }
+          body > div.pods > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.pods > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.pods > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.dark {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.dark > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/dark2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 40px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.dark > div:nth-last-of-type(1) > div {
+          text-align: center; }
+          body > div.dark > div:nth-last-of-type(1) > div > h4 {
+            font-size: 40px;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(1) > div > div {
+            position: relative;
+            width: 200px;
+            height: 40px; }
+            body > div.dark > div:nth-last-of-type(1) > div > div > p {
+              font-size: 22px;
+              text-align: center;
+              color: white;
+              display: flex; }
+              body > div.dark > div:nth-last-of-type(1) > div > div > p > img {
+                display: block;
+                position: absolute;
+                top: 0px;
+                right: 0; }
+          body > div.dark > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 15px; }
+            body > div.dark > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.dark > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/dark1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.dark > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.dark > div:nth-last-of-type(2) > div > h4 {
+            font-size: 40px;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(2) > div > p {
+            font-size: 22px;
+            text-align: center;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.dark > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.dark > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.slider {
+      width: 95%;
+      height: 700px;
+      background-color: #b9b8b8;
+      margin: 5px auto; }
+      body > div.slider .swiper {
+        width: 100%;
+        height: 100%; }
+      body > div.slider .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center; }
+      body > div.slider .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    body > footer > div.text {
+      width: 100%;
+      height: 890px;
+      background-color: #f5f5f7;
+      display: flex;
+      margin-bottom: unset;
+      flex-direction: column; }
+      body > footer > div.text > div.about {
+        width: 70%;
+        height: 270px;
+        color: #86868b;
+        margin: 40px auto; }
+        body > footer > div.text > div.about > p {
+          font-size: 11px;
+          line-height: 1.3;
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: justify; }
+          body > footer > div.text > div.about > p > span:nth-last-of-type(1) {
+            color: #6d6d6d;
+            font-weight: 600; }
+            body > footer > div.text > div.about > p > span:nth-last-of-type(1) > span {
+              color: #313131; }
+          body > footer > div.text > div.about > p > a {
+            text-decoration: none;
+            color: #535252; }
+            body > footer > div.text > div.about > p > a:hover {
+              text-decoration: underline; }
+      body > footer > div.text > hr {
+        width: 70%;
+        margin: 8px auto;
+        size: 0.2; }
+      body > footer > div.text > div.end {
+        width: 70%;
+        height: 430px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 5px; }
+        body > footer > div.text > div.end > div > a {
+          display: block;
+          text-decoration: none;
+          width: auto;
+          height: 30px;
+          font-size: 13px;
+          color: #666666; }
+          body > footer > div.text > div.end > div > a:hover {
+            text-decoration: underline;
+            color: #313132; }
+        body > footer > div.text > div.end > div > span {
+          font-size: 12px;
+          width: auto;
+          height: 30px;
+          display: block; }
+    body > footer > div.copy {
+      width: 75%;
+      height: 130px;
+      margin: 0 auto; }
+      body > footer > div.copy > div:nth-last-of-type(2) > p {
+        font-size: 13px;
+        color: #6a6a6a; }
+        body > footer > div.copy > div:nth-last-of-type(2) > p > a {
+          text-decoration: none;
+          color: #0066cc; }
+          body > footer > div.copy > div:nth-last-of-type(2) > p > a:hover {
+            text-decoration: underline; }
+      body > footer > div.copy > hr {
+        size: 2px;
+        margin-top: 5px; }
+      body > footer > div.copy > div:nth-last-of-type(1) {
+        height: 26px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        color: #6a6a6a; } }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    font-family: ps; }
+    body > div.menu {
+      width: 100%;
+      height: 45px;
+      background-color: #313132; }
+      body > div.menu > nav {
+        width: inherit;
+        height: inherit; }
+        body > div.menu > nav > ul {
+          list-style: none;
+          display: flex;
+          width: inherit;
+          height: inherit;
+          justify-content: center;
+          gap: 0 18px; }
+          body > div.menu > nav > ul > li {
+            width: auto;
+            height: inherit; }
+            body > div.menu > nav > ul > li > a {
+              width: auto;
+              height: inherit;
+              padding: 0 5px;
+              background-color: #313132;
+              line-height: 45px;
+              color: #b9b8b8;
+              display: block;
+              font-size: 13px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.menu > nav > ul > li > a:hover {
+                color: white;
+                font-size: 15px; }
+    body > div.red {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/choose_red_hero__bnqcrkgq6kia_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 60px;
+      box-sizing: border-box;
+      justify-content: center; }
+      body > div.red > div {
+        width: auto; }
+        body > div.red > div h2 {
+          align-content: center;
+          font-size: 60px; }
+        body > div.red > div p {
+          text-align: center;
+          font-size: 30px;
+          margin-top: 8px; }
+        body > div.red > div > a {
+          width: none;
+          height: none;
+          padding: none;
+          background-color: none;
+          line-height: none;
+          color: #0066cc;
+          display: block;
+          font-size: 21px;
+          text-decoration: none;
+          transition: 300ms;
+          -webkit-transition: 300ms;
+          -moz-transition: 300ms;
+          -ms-transition: 300ms;
+          -o-transition: 300ms;
+          text-align: center;
+          margin-top: 20px; }
+          body > div.red > div > a:hover {
+            text-decoration: underline;
+            font-size: 24px; }
+    body > div.big {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/hero_iphone14__fjmsqstr1ceq_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 60px;
+      box-sizing: border-box;
+      justify-content: center; }
+      body > div.big > div {
+        width: auto; }
+        body > div.big > div > h2 {
+          text-align: center;
+          font-size: 60px; }
+        body > div.big > div p {
+          text-align: center;
+          font-size: 28px;
+          margin-top: 5px; }
+        body > div.big > div > div {
+          display: flex;
+          gap: 55px;
+          justify-content: center;
+          margin-top: 6px; }
+          body > div.big > div > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 21px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+            body > div.big > div > div > a:hover {
+              text-decoration: underline;
+              font-size: 24px; }
+    body > div.pro {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/hero_iphone14pro__e5xbgo5ffhg2_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 40px;
+      box-sizing: border-box;
+      justify-content: center;
+      margin-top: 5px; }
+      body > div.pro > div {
+        width: auto; }
+        body > div.pro > div > h2 {
+          color: white;
+          font-size: 60px;
+          text-align: center; }
+        body > div.pro > div > p {
+          color: white;
+          text-align: center;
+          font-size: 28px;
+          margin-top: 5px; }
+        body > div.pro > div > div {
+          display: flex;
+          gap: 55px;
+          justify-content: center;
+          margin-top: 6px; }
+          body > div.pro > div > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 21px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+            body > div.pro > div > div > a:hover {
+              text-decoration: underline;
+              font-size: 24px; }
+    body > div.Give {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.Give > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/g1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center;
+        position: relative; }
+        body > div.Give > div:nth-last-of-type(1) > div {
+          position: absolute;
+          bottom: 50px;
+          text-align: center; }
+          body > div.Give > div:nth-last-of-type(1) > div > h2 {
+            color: white;
+            font-size: 50px; }
+          body > div.Give > div:nth-last-of-type(1) > div > p {
+            color: white;
+            font-size: 22px; }
+          body > div.Give > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 20px; }
+            body > div.Give > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.Give > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.Give > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.Give > div:nth-last-of-type(2) > div > p {
+            color: white;
+            font-size: 22px;
+            text-align: center; }
+          body > div.Give > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.Give > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.Give > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.pods {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.pods > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/pod2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 40px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.pods > div:nth-last-of-type(1) > div {
+          bottom: 50px;
+          text-align: center; }
+          body > div.pods > div:nth-last-of-type(1) > div > h2 {
+            font-size: 50px; }
+          body > div.pods > div:nth-last-of-type(1) > div > p {
+            font-size: 22px; }
+          body > div.pods > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 15px; }
+            body > div.pods > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.pods > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/pod1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.pods > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.pods > div:nth-last-of-type(2) > div > h4 {
+            font-size: 60px; }
+          body > div.pods > div:nth-last-of-type(2) > div > p {
+            font-size: 22px;
+            text-align: center; }
+          body > div.pods > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.pods > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.pods > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.dark {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.dark > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/dark2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 40px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.dark > div:nth-last-of-type(1) > div {
+          text-align: center; }
+          body > div.dark > div:nth-last-of-type(1) > div > h4 {
+            font-size: 40px;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(1) > div > div {
+            position: relative;
+            width: 200px;
+            height: 40px; }
+            body > div.dark > div:nth-last-of-type(1) > div > div > p {
+              font-size: 22px;
+              text-align: center;
+              color: white;
+              display: flex; }
+              body > div.dark > div:nth-last-of-type(1) > div > div > p > img {
+                display: block;
+                position: absolute;
+                top: 0px;
+                right: 0; }
+          body > div.dark > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 15px; }
+            body > div.dark > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.dark > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/dark1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.dark > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.dark > div:nth-last-of-type(2) > div > h4 {
+            font-size: 40px;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(2) > div > p {
+            font-size: 22px;
+            text-align: center;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.dark > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.dark > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.slider {
+      width: 95%;
+      height: 700px;
+      background-color: #b9b8b8;
+      margin: 5px auto; }
+      body > div.slider .swiper {
+        width: 100%;
+        height: 100%; }
+      body > div.slider .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center; }
+      body > div.slider .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    body > footer > div.text {
+      width: 100%;
+      height: 890px;
+      background-color: #f5f5f7;
+      display: flex;
+      margin-bottom: unset;
+      flex-direction: column; }
+      body > footer > div.text > div.about {
+        width: 88%;
+        height: 270px;
+        color: #86868b;
+        margin: 10px auto; }
+        body > footer > div.text > div.about > p {
+          font-size: 10px;
+          line-height: 1.3;
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: justify; }
+          body > footer > div.text > div.about > p > span:nth-last-of-type(1) {
+            color: #6d6d6d;
+            font-weight: 600; }
+            body > footer > div.text > div.about > p > span:nth-last-of-type(1) > span {
+              color: #313131; }
+          body > footer > div.text > div.about > p > a {
+            text-decoration: none;
+            color: #535252; }
+            body > footer > div.text > div.about > p > a:hover {
+              text-decoration: underline; }
+      body > footer > div.text > hr {
+        width: 80%;
+        margin: 8px auto;
+        size: 0.2; }
+      body > footer > div.text > div.end {
+        width: 70%;
+        height: 430px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 5px; }
+        body > footer > div.text > div.end > div > a {
+          display: block;
+          text-decoration: none;
+          width: auto;
+          height: 30px;
+          font-size: 11.5px;
+          color: #666666; }
+          body > footer > div.text > div.end > div > a:hover {
+            text-decoration: underline;
+            color: #313132; }
+        body > footer > div.text > div.end > div > span {
+          font-size: 13px;
+          width: auto;
+          height: 30px;
+          display: block; }
+    body > footer > div.copy {
+      width: 75%;
+      height: 130px;
+      margin: 0 auto; }
+      body > footer > div.copy > div:nth-last-of-type(2) > p {
+        font-size: 12px;
+        color: #6a6a6a; }
+        body > footer > div.copy > div:nth-last-of-type(2) > p > a {
+          text-decoration: none;
+          color: #0066cc; }
+          body > footer > div.copy > div:nth-last-of-type(2) > p > a:hover {
+            text-decoration: underline; }
+      body > footer > div.copy > hr {
+        size: 2px;
+        margin-top: 5px; }
+      body > footer > div.copy > div:nth-last-of-type(1) {
+        height: 26px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        color: #6a6a6a; } }
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  body {
+    font-family: ps; }
+    body > div.menu {
+      width: 100%;
+      height: 45px;
+      background-color: #313132; }
+      body > div.menu > nav {
+        width: inherit;
+        height: inherit; }
+        body > div.menu > nav > ul {
+          list-style: none;
+          display: flex;
+          width: inherit;
+          height: inherit;
+          justify-content: center;
+          gap: 0 40px; }
+          body > div.menu > nav > ul > li {
+            width: auto;
+            height: inherit; }
+            body > div.menu > nav > ul > li > a {
+              width: auto;
+              height: inherit;
+              padding: 0 5px;
+              background-color: #313132;
+              line-height: 45px;
+              color: #b9b8b8;
+              display: block;
+              font-size: 13px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.menu > nav > ul > li > a:hover {
+                color: white;
+                font-size: 15px; }
+    body > div.red {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/choose_red_hero__bnqcrkgq6kia_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 60px;
+      box-sizing: border-box;
+      justify-content: center; }
+      body > div.red > div {
+        width: auto; }
+        body > div.red > div h2 {
+          align-content: center;
+          font-size: 60px; }
+        body > div.red > div p {
+          text-align: center;
+          font-size: 30px;
+          margin-top: 8px; }
+        body > div.red > div > a {
+          width: none;
+          height: none;
+          padding: none;
+          background-color: none;
+          line-height: none;
+          color: #0066cc;
+          display: block;
+          font-size: 21px;
+          text-decoration: none;
+          transition: 300ms;
+          -webkit-transition: 300ms;
+          -moz-transition: 300ms;
+          -ms-transition: 300ms;
+          -o-transition: 300ms;
+          text-align: center;
+          margin-top: 20px; }
+          body > div.red > div > a:hover {
+            text-decoration: underline;
+            font-size: 24px; }
+    body > div.big {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/hero_iphone14__fjmsqstr1ceq_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 60px;
+      box-sizing: border-box;
+      justify-content: center; }
+      body > div.big > div {
+        width: auto; }
+        body > div.big > div > h2 {
+          text-align: center;
+          font-size: 60px; }
+        body > div.big > div p {
+          text-align: center;
+          font-size: 28px;
+          margin-top: 5px; }
+        body > div.big > div > div {
+          display: flex;
+          gap: 55px;
+          justify-content: center;
+          margin-top: 6px; }
+          body > div.big > div > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 21px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+            body > div.big > div > div > a:hover {
+              text-decoration: underline;
+              font-size: 24px; }
+    body > div.pro {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/hero_iphone14pro__e5xbgo5ffhg2_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 40px;
+      box-sizing: border-box;
+      justify-content: center;
+      margin-top: 5px; }
+      body > div.pro > div {
+        width: auto; }
+        body > div.pro > div > h2 {
+          color: white;
+          font-size: 60px;
+          text-align: center; }
+        body > div.pro > div > p {
+          color: white;
+          text-align: center;
+          font-size: 28px;
+          margin-top: 5px; }
+        body > div.pro > div > div {
+          display: flex;
+          gap: 55px;
+          justify-content: center;
+          margin-top: 6px; }
+          body > div.pro > div > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 21px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+            body > div.pro > div > div > a:hover {
+              text-decoration: underline;
+              font-size: 24px; }
+    body > div.Give {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.Give > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/g1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center;
+        position: relative; }
+        body > div.Give > div:nth-last-of-type(1) > div {
+          position: absolute;
+          bottom: 50px;
+          text-align: center; }
+          body > div.Give > div:nth-last-of-type(1) > div > h2 {
+            color: white;
+            font-size: 50px; }
+          body > div.Give > div:nth-last-of-type(1) > div > p {
+            color: white;
+            font-size: 22px; }
+          body > div.Give > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 20px; }
+            body > div.Give > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.Give > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.Give > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.Give > div:nth-last-of-type(2) > div > p {
+            color: white;
+            font-size: 22px;
+            text-align: center; }
+          body > div.Give > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.Give > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.Give > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.pods {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.pods > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/pod2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 40px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.pods > div:nth-last-of-type(1) > div {
+          bottom: 50px;
+          text-align: center; }
+          body > div.pods > div:nth-last-of-type(1) > div > h2 {
+            font-size: 50px; }
+          body > div.pods > div:nth-last-of-type(1) > div > p {
+            font-size: 22px; }
+          body > div.pods > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 15px; }
+            body > div.pods > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.pods > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/pod1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.pods > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.pods > div:nth-last-of-type(2) > div > h4 {
+            font-size: 60px; }
+          body > div.pods > div:nth-last-of-type(2) > div > p {
+            font-size: 22px;
+            text-align: center; }
+          body > div.pods > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.pods > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.pods > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.dark {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.dark > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/dark2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 40px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.dark > div:nth-last-of-type(1) > div {
+          text-align: center; }
+          body > div.dark > div:nth-last-of-type(1) > div > h4 {
+            font-size: 40px;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(1) > div > div {
+            position: relative;
+            width: 200px;
+            height: 40px; }
+            body > div.dark > div:nth-last-of-type(1) > div > div > p {
+              font-size: 22px;
+              text-align: center;
+              color: white;
+              display: flex; }
+              body > div.dark > div:nth-last-of-type(1) > div > div > p > img {
+                display: block;
+                position: absolute;
+                top: 0px;
+                right: 0; }
+          body > div.dark > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 15px; }
+            body > div.dark > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.dark > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/dark1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.dark > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.dark > div:nth-last-of-type(2) > div > h4 {
+            font-size: 40px;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(2) > div > p {
+            font-size: 22px;
+            text-align: center;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.dark > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.dark > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.slider {
+      width: 95%;
+      height: 700px;
+      background-color: #b9b8b8;
+      margin: 5px auto; }
+      body > div.slider .swiper {
+        width: 100%;
+        height: 100%; }
+      body > div.slider .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center; }
+      body > div.slider .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    body > footer > div.text {
+      width: 100%;
+      height: 890px;
+      background-color: #f5f5f7;
+      display: flex;
+      margin-bottom: unset;
+      flex-direction: column; }
+      body > footer > div.text > div.about {
+        width: 70%;
+        height: 270px;
+        color: #86868b;
+        margin: 40px auto; }
+        body > footer > div.text > div.about > p {
+          font-size: 13px;
+          line-height: 1.3;
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: justify; }
+          body > footer > div.text > div.about > p > span:nth-last-of-type(1) {
+            color: #6d6d6d;
+            font-weight: 600; }
+            body > footer > div.text > div.about > p > span:nth-last-of-type(1) > span {
+              color: #313131; }
+          body > footer > div.text > div.about > p > a {
+            text-decoration: none;
+            color: #535252; }
+            body > footer > div.text > div.about > p > a:hover {
+              text-decoration: underline; }
+      body > footer > div.text > hr {
+        width: 70%;
+        margin: 8px auto;
+        size: 0.2; }
+      body > footer > div.text > div.end {
+        width: 70%;
+        height: 430px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 5px; }
+        body > footer > div.text > div.end > div > a {
+          display: block;
+          text-decoration: none;
+          width: auto;
+          height: 30px;
+          font-size: 13px;
+          color: #666666; }
+          body > footer > div.text > div.end > div > a:hover {
+            text-decoration: underline;
+            color: #313132; }
+        body > footer > div.text > div.end > div > span {
+          font-size: 13px;
+          width: auto;
+          height: 30px;
+          display: block; }
+    body > footer > div.copy {
+      width: 75%;
+      height: 130px;
+      margin: 0 auto; }
+      body > footer > div.copy > div:nth-last-of-type(2) > p {
+        font-size: 13px;
+        color: #6a6a6a; }
+        body > footer > div.copy > div:nth-last-of-type(2) > p > a {
+          text-decoration: none;
+          color: #0066cc; }
+          body > footer > div.copy > div:nth-last-of-type(2) > p > a:hover {
+            text-decoration: underline; }
+      body > footer > div.copy > hr {
+        size: 2px;
+        margin-top: 5px; }
+      body > footer > div.copy > div:nth-last-of-type(1) {
+        height: 26px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        color: #6a6a6a; } }
+
+@media screen and (min-width: 540px) and (max-width: 576px) {
+  body {
+    font-family: ps; }
+    body > div.menu {
+      width: 100%;
+      height: 45px;
+      background-color: #313132; }
+      body > div.menu > nav {
+        width: inherit;
+        height: inherit; }
+        body > div.menu > nav > ul {
+          list-style: none;
+          display: flex;
+          width: inherit;
+          height: inherit;
+          justify-content: center;
+          gap: 0 40px; }
+          body > div.menu > nav > ul > li {
+            width: auto;
+            height: inherit; }
+            body > div.menu > nav > ul > li > a {
+              width: auto;
+              height: inherit;
+              padding: 0 5px;
+              background-color: #313132;
+              line-height: 45px;
+              color: #b9b8b8;
+              display: block;
+              font-size: 13px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.menu > nav > ul > li > a:hover {
+                color: white;
+                font-size: 15px; }
+    body > div.red {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/choose_red_hero__bnqcrkgq6kia_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 60px;
+      box-sizing: border-box;
+      justify-content: center; }
+      body > div.red > div {
+        width: auto; }
+        body > div.red > div h2 {
+          align-content: center;
+          font-size: 60px; }
+        body > div.red > div p {
+          text-align: center;
+          font-size: 30px;
+          margin-top: 8px; }
+        body > div.red > div > a {
+          width: none;
+          height: none;
+          padding: none;
+          background-color: none;
+          line-height: none;
+          color: #0066cc;
+          display: block;
+          font-size: 21px;
+          text-decoration: none;
+          transition: 300ms;
+          -webkit-transition: 300ms;
+          -moz-transition: 300ms;
+          -ms-transition: 300ms;
+          -o-transition: 300ms;
+          text-align: center;
+          margin-top: 20px; }
+          body > div.red > div > a:hover {
+            text-decoration: underline;
+            font-size: 24px; }
+    body > div.big {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/hero_iphone14__fjmsqstr1ceq_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 60px;
+      box-sizing: border-box;
+      justify-content: center; }
+      body > div.big > div {
+        width: auto; }
+        body > div.big > div > h2 {
+          text-align: center;
+          font-size: 60px; }
+        body > div.big > div p {
+          text-align: center;
+          font-size: 28px;
+          margin-top: 5px; }
+        body > div.big > div > div {
+          display: flex;
+          gap: 55px;
+          justify-content: center;
+          margin-top: 6px; }
+          body > div.big > div > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 21px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+            body > div.big > div > div > a:hover {
+              text-decoration: underline;
+              font-size: 24px; }
+    body > div.pro {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/hero_iphone14pro__e5xbgo5ffhg2_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 40px;
+      box-sizing: border-box;
+      justify-content: center;
+      margin-top: 5px; }
+      body > div.pro > div {
+        width: auto; }
+        body > div.pro > div > h2 {
+          color: white;
+          font-size: 60px;
+          text-align: center; }
+        body > div.pro > div > p {
+          color: white;
+          text-align: center;
+          font-size: 28px;
+          margin-top: 5px; }
+        body > div.pro > div > div {
+          display: flex;
+          gap: 55px;
+          justify-content: center;
+          margin-top: 6px; }
+          body > div.pro > div > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 21px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+            body > div.pro > div > div > a:hover {
+              text-decoration: underline;
+              font-size: 24px; }
+    body > div.Give {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.Give > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/g1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center;
+        position: relative; }
+        body > div.Give > div:nth-last-of-type(1) > div {
+          position: absolute;
+          bottom: 50px;
+          text-align: center; }
+          body > div.Give > div:nth-last-of-type(1) > div > h2 {
+            color: white;
+            font-size: 50px; }
+          body > div.Give > div:nth-last-of-type(1) > div > p {
+            color: white;
+            font-size: 22px; }
+          body > div.Give > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 20px; }
+            body > div.Give > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.Give > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.Give > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.Give > div:nth-last-of-type(2) > div > p {
+            color: white;
+            font-size: 22px;
+            text-align: center; }
+          body > div.Give > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.Give > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.Give > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.pods {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.pods > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/pod2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 40px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.pods > div:nth-last-of-type(1) > div {
+          bottom: 50px;
+          text-align: center; }
+          body > div.pods > div:nth-last-of-type(1) > div > h2 {
+            font-size: 50px; }
+          body > div.pods > div:nth-last-of-type(1) > div > p {
+            font-size: 22px; }
+          body > div.pods > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 15px; }
+            body > div.pods > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.pods > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/pod1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.pods > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.pods > div:nth-last-of-type(2) > div > h4 {
+            font-size: 60px; }
+          body > div.pods > div:nth-last-of-type(2) > div > p {
+            font-size: 22px;
+            text-align: center; }
+          body > div.pods > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.pods > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.pods > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.dark {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.dark > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/dark2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 40px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.dark > div:nth-last-of-type(1) > div {
+          text-align: center; }
+          body > div.dark > div:nth-last-of-type(1) > div > h4 {
+            font-size: 40px;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(1) > div > div {
+            position: relative;
+            width: 200px;
+            height: 40px; }
+            body > div.dark > div:nth-last-of-type(1) > div > div > p {
+              font-size: 22px;
+              text-align: center;
+              color: white;
+              display: flex; }
+              body > div.dark > div:nth-last-of-type(1) > div > div > p > img {
+                display: block;
+                position: absolute;
+                top: 0px;
+                right: 0; }
+          body > div.dark > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 15px; }
+            body > div.dark > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.dark > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/dark1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.dark > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.dark > div:nth-last-of-type(2) > div > h4 {
+            font-size: 40px;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(2) > div > p {
+            font-size: 22px;
+            text-align: center;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.dark > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.dark > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.slider {
+      width: 95%;
+      height: 700px;
+      background-color: #b9b8b8;
+      margin: 5px auto; }
+      body > div.slider .swiper {
+        width: 100%;
+        height: 100%; }
+      body > div.slider .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center; }
+      body > div.slider .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    body > footer > div.text {
+      width: 100%;
+      height: 890px;
+      background-color: #f5f5f7;
+      display: flex;
+      margin-bottom: unset;
+      flex-direction: column; }
+      body > footer > div.text > div.about {
+        width: 70%;
+        height: 270px;
+        color: #86868b;
+        margin: 40px auto; }
+        body > footer > div.text > div.about > p {
+          font-size: 13px;
+          line-height: 1.3;
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: justify; }
+          body > footer > div.text > div.about > p > span:nth-last-of-type(1) {
+            color: #6d6d6d;
+            font-weight: 600; }
+            body > footer > div.text > div.about > p > span:nth-last-of-type(1) > span {
+              color: #313131; }
+          body > footer > div.text > div.about > p > a {
+            text-decoration: none;
+            color: #535252; }
+            body > footer > div.text > div.about > p > a:hover {
+              text-decoration: underline; }
+      body > footer > div.text > hr {
+        width: 70%;
+        margin: 8px auto;
+        size: 0.2; }
+      body > footer > div.text > div.end {
+        width: 70%;
+        height: 430px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 5px; }
+        body > footer > div.text > div.end > div > a {
+          display: block;
+          text-decoration: none;
+          width: auto;
+          height: 30px;
+          font-size: 13px;
+          color: #666666; }
+          body > footer > div.text > div.end > div > a:hover {
+            text-decoration: underline;
+            color: #313132; }
+        body > footer > div.text > div.end > div > span {
+          font-size: 13px;
+          width: auto;
+          height: 30px;
+          display: block; }
+    body > footer > div.copy {
+      width: 75%;
+      height: 130px;
+      margin: 0 auto; }
+      body > footer > div.copy > div:nth-last-of-type(2) > p {
+        font-size: 13px;
+        color: #6a6a6a; }
+        body > footer > div.copy > div:nth-last-of-type(2) > p > a {
+          text-decoration: none;
+          color: #0066cc; }
+          body > footer > div.copy > div:nth-last-of-type(2) > p > a:hover {
+            text-decoration: underline; }
+      body > footer > div.copy > hr {
+        size: 2px;
+        margin-top: 5px; }
+      body > footer > div.copy > div:nth-last-of-type(1) {
+        height: 26px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        color: #6a6a6a; } }
+
+@media screen and (max-width: 540px) {
+  body {
+    font-family: ps; }
+    body > div.menu {
+      width: 100%;
+      height: 45px;
+      background-color: #313132; }
+      body > div.menu > nav {
+        width: inherit;
+        height: inherit; }
+        body > div.menu > nav > ul {
+          list-style: none;
+          display: flex;
+          width: inherit;
+          height: inherit;
+          justify-content: center;
+          gap: 0 40px; }
+          body > div.menu > nav > ul > li {
+            width: auto;
+            height: inherit; }
+            body > div.menu > nav > ul > li > a {
+              width: auto;
+              height: inherit;
+              padding: 0 5px;
+              background-color: #313132;
+              line-height: 45px;
+              color: #b9b8b8;
+              display: block;
+              font-size: 13px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.menu > nav > ul > li > a:hover {
+                color: white;
+                font-size: 15px; }
+    body > div.red {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/choose_red_hero__bnqcrkgq6kia_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 60px;
+      box-sizing: border-box;
+      justify-content: center; }
+      body > div.red > div {
+        width: auto; }
+        body > div.red > div h2 {
+          align-content: center;
+          font-size: 60px; }
+        body > div.red > div p {
+          text-align: center;
+          font-size: 30px;
+          margin-top: 8px; }
+        body > div.red > div > a {
+          width: none;
+          height: none;
+          padding: none;
+          background-color: none;
+          line-height: none;
+          color: #0066cc;
+          display: block;
+          font-size: 21px;
+          text-decoration: none;
+          transition: 300ms;
+          -webkit-transition: 300ms;
+          -moz-transition: 300ms;
+          -ms-transition: 300ms;
+          -o-transition: 300ms;
+          text-align: center;
+          margin-top: 20px; }
+          body > div.red > div > a:hover {
+            text-decoration: underline;
+            font-size: 24px; }
+    body > div.big {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/hero_iphone14__fjmsqstr1ceq_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 60px;
+      box-sizing: border-box;
+      justify-content: center; }
+      body > div.big > div {
+        width: auto; }
+        body > div.big > div > h2 {
+          text-align: center;
+          font-size: 60px; }
+        body > div.big > div p {
+          text-align: center;
+          font-size: 28px;
+          margin-top: 5px; }
+        body > div.big > div > div {
+          display: flex;
+          gap: 55px;
+          justify-content: center;
+          margin-top: 6px; }
+          body > div.big > div > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 21px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+            body > div.big > div > div > a:hover {
+              text-decoration: underline;
+              font-size: 24px; }
+    body > div.pro {
+      width: 100%;
+      height: 600px;
+      background-image: url(../image/hero_iphone14pro__e5xbgo5ffhg2_large.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      padding: 40px;
+      box-sizing: border-box;
+      justify-content: center;
+      margin-top: 5px; }
+      body > div.pro > div {
+        width: auto; }
+        body > div.pro > div > h2 {
+          color: white;
+          font-size: 60px;
+          text-align: center; }
+        body > div.pro > div > p {
+          color: white;
+          text-align: center;
+          font-size: 28px;
+          margin-top: 5px; }
+        body > div.pro > div > div {
+          display: flex;
+          gap: 55px;
+          justify-content: center;
+          margin-top: 6px; }
+          body > div.pro > div > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 21px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+            body > div.pro > div > div > a:hover {
+              text-decoration: underline;
+              font-size: 24px; }
+    body > div.Give {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.Give > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/g1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center;
+        position: relative; }
+        body > div.Give > div:nth-last-of-type(1) > div {
+          position: absolute;
+          bottom: 50px;
+          text-align: center; }
+          body > div.Give > div:nth-last-of-type(1) > div > h2 {
+            color: white;
+            font-size: 50px; }
+          body > div.Give > div:nth-last-of-type(1) > div > p {
+            color: white;
+            font-size: 22px; }
+          body > div.Give > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 20px; }
+            body > div.Give > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.Give > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.Give > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.Give > div:nth-last-of-type(2) > div > p {
+            color: white;
+            font-size: 22px;
+            text-align: center; }
+          body > div.Give > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.Give > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.Give > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.pods {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.pods > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/pod2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 40px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.pods > div:nth-last-of-type(1) > div {
+          bottom: 50px;
+          text-align: center; }
+          body > div.pods > div:nth-last-of-type(1) > div > h2 {
+            font-size: 50px; }
+          body > div.pods > div:nth-last-of-type(1) > div > p {
+            font-size: 22px; }
+          body > div.pods > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 15px; }
+            body > div.pods > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.pods > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/pod1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.pods > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.pods > div:nth-last-of-type(2) > div > h4 {
+            font-size: 60px; }
+          body > div.pods > div:nth-last-of-type(2) > div > p {
+            font-size: 22px;
+            text-align: center; }
+          body > div.pods > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.pods > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.pods > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.dark {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px; }
+      body > div.dark > div:nth-last-of-type(1) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/dark2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 40px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.dark > div:nth-last-of-type(1) > div {
+          text-align: center; }
+          body > div.dark > div:nth-last-of-type(1) > div > h4 {
+            font-size: 40px;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(1) > div > div {
+            position: relative;
+            width: 200px;
+            height: 40px; }
+            body > div.dark > div:nth-last-of-type(1) > div > div > p {
+              font-size: 22px;
+              text-align: center;
+              color: white;
+              display: flex; }
+              body > div.dark > div:nth-last-of-type(1) > div > div > p > img {
+                display: block;
+                position: absolute;
+                top: 0px;
+                right: 0; }
+          body > div.dark > div:nth-last-of-type(1) > div > a {
+            width: none;
+            height: none;
+            padding: none;
+            background-color: none;
+            line-height: none;
+            color: #0066cc;
+            display: block;
+            font-size: 19px;
+            text-decoration: none;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+            margin-top: 15px; }
+            body > div.dark > div:nth-last-of-type(1) > div > a:hover {
+              text-decoration: underline;
+              font-size: 22px; }
+      body > div.dark > div:nth-last-of-type(2) {
+        width: 49%;
+        height: 590px;
+        background-image: url(../image/dark1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: center; }
+        body > div.dark > div:nth-last-of-type(2) > div {
+          text-align: center; }
+          body > div.dark > div:nth-last-of-type(2) > div > h4 {
+            font-size: 40px;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(2) > div > p {
+            font-size: 22px;
+            text-align: center;
+            color: white; }
+          body > div.dark > div:nth-last-of-type(2) > div > div {
+            display: flex;
+            gap: 55px;
+            justify-content: center;
+            margin-top: 10px; }
+            body > div.dark > div:nth-last-of-type(2) > div > div > a {
+              width: none;
+              height: none;
+              padding: none;
+              background-color: none;
+              line-height: none;
+              color: #0066cc;
+              display: block;
+              font-size: 19px;
+              text-decoration: none;
+              transition: 300ms;
+              -webkit-transition: 300ms;
+              -moz-transition: 300ms;
+              -ms-transition: 300ms;
+              -o-transition: 300ms; }
+              body > div.dark > div:nth-last-of-type(2) > div > div > a:hover {
+                text-decoration: underline;
+                font-size: 22px; }
+    body > div.slider {
+      width: 95%;
+      height: 700px;
+      background-color: #b9b8b8;
+      margin: 5px auto; }
+      body > div.slider .swiper {
+        width: 100%;
+        height: 100%; }
+      body > div.slider .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center; }
+      body > div.slider .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    body > footer > div.text {
+      width: 100%;
+      height: 890px;
+      background-color: #f5f5f7;
+      display: flex;
+      margin-bottom: unset;
+      flex-direction: column; }
+      body > footer > div.text > div.about {
+        width: 70%;
+        height: 270px;
+        color: #86868b;
+        margin: 40px auto; }
+        body > footer > div.text > div.about > p {
+          font-size: 13px;
+          line-height: 1.3;
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: justify; }
+          body > footer > div.text > div.about > p > span:nth-last-of-type(1) {
+            color: #6d6d6d;
+            font-weight: 600; }
+            body > footer > div.text > div.about > p > span:nth-last-of-type(1) > span {
+              color: #313131; }
+          body > footer > div.text > div.about > p > a {
+            text-decoration: none;
+            color: #535252; }
+            body > footer > div.text > div.about > p > a:hover {
+              text-decoration: underline; }
+      body > footer > div.text > hr {
+        width: 70%;
+        margin: 8px auto;
+        size: 0.2; }
+      body > footer > div.text > div.end {
+        width: 70%;
+        height: 430px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 5px; }
+        body > footer > div.text > div.end > div > a {
+          display: block;
+          text-decoration: none;
+          width: auto;
+          height: 30px;
+          font-size: 13px;
+          color: #666666; }
+          body > footer > div.text > div.end > div > a:hover {
+            text-decoration: underline;
+            color: #313132; }
+        body > footer > div.text > div.end > div > span {
+          font-size: 13px;
+          width: auto;
+          height: 30px;
+          display: block; }
+    body > footer > div.copy {
+      width: 75%;
+      height: 130px;
+      margin: 0 auto; }
+      body > footer > div.copy > div:nth-last-of-type(2) > p {
+        font-size: 13px;
+        color: #6a6a6a; }
+        body > footer > div.copy > div:nth-last-of-type(2) > p > a {
+          text-decoration: none;
+          color: #0066cc; }
+          body > footer > div.copy > div:nth-last-of-type(2) > p > a:hover {
+            text-decoration: underline; }
+      body > footer > div.copy > hr {
+        size: 2px;
+        margin-top: 5px; }
+      body > footer > div.copy > div:nth-last-of-type(1) {
+        height: 26px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        color: #6a6a6a; } }
+
 @font-face {
   font-family: ps;
   src: url(../font/SFPRODISPLAYREGULAR.OTF); }
-
-body {
-  font-family: ps; }
-  body > div.menu {
-    width: 100%;
-    height: 45px;
-    background-color: #313132; }
-    body > div.menu > nav {
-      width: inherit;
-      height: inherit; }
-      body > div.menu > nav > ul {
-        list-style: none;
-        display: flex;
-        width: inherit;
-        height: inherit;
-        justify-content: center;
-        gap: 0 40px; }
-        body > div.menu > nav > ul > li {
-          width: auto;
-          height: inherit; }
-          body > div.menu > nav > ul > li > a {
-            width: auto;
-            height: inherit;
-            padding: 0 5px;
-            background-color: #313132;
-            line-height: 45px;
-            color: #b9b8b8;
-            display: block;
-            font-size: 13px;
-            text-decoration: none;
-            transition: 300ms;
-            -webkit-transition: 300ms;
-            -moz-transition: 300ms;
-            -ms-transition: 300ms;
-            -o-transition: 300ms; }
-            body > div.menu > nav > ul > li > a:hover {
-              color: white;
-              font-size: 15px; }
-  body > div.red {
-    width: 100%;
-    height: 600px;
-    background-image: url(../image/choose_red_hero__bnqcrkgq6kia_large.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    padding: 60px;
-    box-sizing: border-box;
-    justify-content: center; }
-    body > div.red > div {
-      width: auto; }
-      body > div.red > div h2 {
-        align-content: center;
-        font-size: 60px; }
-      body > div.red > div p {
-        text-align: center;
-        font-size: 30px;
-        margin-top: 8px; }
-      body > div.red > div > a {
-        width: none;
-        height: none;
-        padding: none;
-        background-color: none;
-        line-height: none;
-        color: #0066cc;
-        display: block;
-        font-size: 21px;
-        text-decoration: none;
-        transition: 300ms;
-        -webkit-transition: 300ms;
-        -moz-transition: 300ms;
-        -ms-transition: 300ms;
-        -o-transition: 300ms;
-        text-align: center;
-        margin-top: 20px; }
-        body > div.red > div > a:hover {
-          text-decoration: underline;
-          font-size: 24px; }
-  body > div.big {
-    width: 100%;
-    height: 600px;
-    background-image: url(../image/hero_iphone14__fjmsqstr1ceq_large.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    padding: 60px;
-    box-sizing: border-box;
-    justify-content: center; }
-    body > div.big > div {
-      width: auto; }
-      body > div.big > div > h2 {
-        text-align: center;
-        font-size: 60px; }
-      body > div.big > div p {
-        text-align: center;
-        font-size: 28px;
-        margin-top: 5px; }
-      body > div.big > div > div {
-        display: flex;
-        gap: 55px;
-        justify-content: center;
-        margin-top: 6px; }
-        body > div.big > div > div > a {
-          width: none;
-          height: none;
-          padding: none;
-          background-color: none;
-          line-height: none;
-          color: #0066cc;
-          display: block;
-          font-size: 21px;
-          text-decoration: none;
-          transition: 300ms;
-          -webkit-transition: 300ms;
-          -moz-transition: 300ms;
-          -ms-transition: 300ms;
-          -o-transition: 300ms; }
-          body > div.big > div > div > a:hover {
-            text-decoration: underline;
-            font-size: 24px; }
-  body > div.pro {
-    width: 100%;
-    height: 600px;
-    background-image: url(../image/hero_iphone14pro__e5xbgo5ffhg2_large.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    padding: 40px;
-    box-sizing: border-box;
-    justify-content: center;
-    margin-top: 5px; }
-    body > div.pro > div {
-      width: auto; }
-      body > div.pro > div > h2 {
-        color: white;
-        font-size: 60px;
-        text-align: center; }
-      body > div.pro > div > p {
-        color: white;
-        text-align: center;
-        font-size: 28px;
-        margin-top: 5px; }
-      body > div.pro > div > div {
-        display: flex;
-        gap: 55px;
-        justify-content: center;
-        margin-top: 6px; }
-        body > div.pro > div > div > a {
-          width: none;
-          height: none;
-          padding: none;
-          background-color: none;
-          line-height: none;
-          color: #0066cc;
-          display: block;
-          font-size: 21px;
-          text-decoration: none;
-          transition: 300ms;
-          -webkit-transition: 300ms;
-          -moz-transition: 300ms;
-          -ms-transition: 300ms;
-          -o-transition: 300ms; }
-          body > div.pro > div > div > a:hover {
-            text-decoration: underline;
-            font-size: 24px; }
-  body > div.Give {
-    width: 100%;
-    height: 600px;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10px; }
-    body > div.Give > div:nth-last-of-type(1) {
-      width: 49%;
-      height: 590px;
-      background-image: url(../image/g1.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      display: flex;
-      padding: 50px;
-      box-sizing: border-box;
-      justify-content: center;
-      position: relative; }
-      body > div.Give > div:nth-last-of-type(1) > div {
-        position: absolute;
-        bottom: 50px;
-        text-align: center; }
-        body > div.Give > div:nth-last-of-type(1) > div > h2 {
-          color: white;
-          font-size: 50px; }
-        body > div.Give > div:nth-last-of-type(1) > div > p {
-          color: white;
-          font-size: 22px; }
-        body > div.Give > div:nth-last-of-type(1) > div > a {
-          width: none;
-          height: none;
-          padding: none;
-          background-color: none;
-          line-height: none;
-          color: #0066cc;
-          display: block;
-          font-size: 19px;
-          text-decoration: none;
-          transition: 300ms;
-          -webkit-transition: 300ms;
-          -moz-transition: 300ms;
-          -ms-transition: 300ms;
-          -o-transition: 300ms;
-          margin-top: 20px; }
-          body > div.Give > div:nth-last-of-type(1) > div > a:hover {
-            text-decoration: underline;
-            font-size: 22px; }
-    body > div.Give > div:nth-last-of-type(2) {
-      width: 49%;
-      height: 590px;
-      background-image: url(../image/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      display: flex;
-      padding: 50px;
-      box-sizing: border-box;
-      justify-content: center; }
-      body > div.Give > div:nth-last-of-type(2) > div {
-        text-align: center; }
-        body > div.Give > div:nth-last-of-type(2) > div > p {
-          color: white;
-          font-size: 22px;
-          text-align: center; }
-        body > div.Give > div:nth-last-of-type(2) > div > div {
-          display: flex;
-          gap: 55px;
-          justify-content: center;
-          margin-top: 10px; }
-          body > div.Give > div:nth-last-of-type(2) > div > div > a {
-            width: none;
-            height: none;
-            padding: none;
-            background-color: none;
-            line-height: none;
-            color: #0066cc;
-            display: block;
-            font-size: 19px;
-            text-decoration: none;
-            transition: 300ms;
-            -webkit-transition: 300ms;
-            -moz-transition: 300ms;
-            -ms-transition: 300ms;
-            -o-transition: 300ms; }
-            body > div.Give > div:nth-last-of-type(2) > div > div > a:hover {
-              text-decoration: underline;
-              font-size: 22px; }
-  body > div.pods {
-    width: 100%;
-    height: 600px;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10px; }
-    body > div.pods > div:nth-last-of-type(1) {
-      width: 49%;
-      height: 590px;
-      background-image: url(../image/pod2.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      display: flex;
-      padding: 40px;
-      box-sizing: border-box;
-      justify-content: center; }
-      body > div.pods > div:nth-last-of-type(1) > div {
-        bottom: 50px;
-        text-align: center; }
-        body > div.pods > div:nth-last-of-type(1) > div > h2 {
-          font-size: 50px; }
-        body > div.pods > div:nth-last-of-type(1) > div > p {
-          font-size: 22px; }
-        body > div.pods > div:nth-last-of-type(1) > div > a {
-          width: none;
-          height: none;
-          padding: none;
-          background-color: none;
-          line-height: none;
-          color: #0066cc;
-          display: block;
-          font-size: 19px;
-          text-decoration: none;
-          transition: 300ms;
-          -webkit-transition: 300ms;
-          -moz-transition: 300ms;
-          -ms-transition: 300ms;
-          -o-transition: 300ms;
-          margin-top: 15px; }
-          body > div.pods > div:nth-last-of-type(1) > div > a:hover {
-            text-decoration: underline;
-            font-size: 22px; }
-    body > div.pods > div:nth-last-of-type(2) {
-      width: 49%;
-      height: 590px;
-      background-image: url(../image/pod1.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      display: flex;
-      padding: 50px;
-      box-sizing: border-box;
-      justify-content: center; }
-      body > div.pods > div:nth-last-of-type(2) > div {
-        text-align: center; }
-        body > div.pods > div:nth-last-of-type(2) > div > h4 {
-          font-size: 60px; }
-        body > div.pods > div:nth-last-of-type(2) > div > p {
-          font-size: 22px;
-          text-align: center; }
-        body > div.pods > div:nth-last-of-type(2) > div > div {
-          display: flex;
-          gap: 55px;
-          justify-content: center;
-          margin-top: 10px; }
-          body > div.pods > div:nth-last-of-type(2) > div > div > a {
-            width: none;
-            height: none;
-            padding: none;
-            background-color: none;
-            line-height: none;
-            color: #0066cc;
-            display: block;
-            font-size: 19px;
-            text-decoration: none;
-            transition: 300ms;
-            -webkit-transition: 300ms;
-            -moz-transition: 300ms;
-            -ms-transition: 300ms;
-            -o-transition: 300ms; }
-            body > div.pods > div:nth-last-of-type(2) > div > div > a:hover {
-              text-decoration: underline;
-              font-size: 22px; }
-  body > div.dark {
-    width: 100%;
-    height: 600px;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10px; }
-    body > div.dark > div:nth-last-of-type(1) {
-      width: 49%;
-      height: 590px;
-      background-image: url(../image/dark2.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      display: flex;
-      padding: 40px;
-      box-sizing: border-box;
-      justify-content: center; }
-      body > div.dark > div:nth-last-of-type(1) > div {
-        text-align: center; }
-        body > div.dark > div:nth-last-of-type(1) > div > h4 {
-          font-size: 40px;
-          color: white; }
-        body > div.dark > div:nth-last-of-type(1) > div > div {
-          position: relative;
-          width: 200px;
-          height: 40px; }
-          body > div.dark > div:nth-last-of-type(1) > div > div > p {
-            font-size: 22px;
-            text-align: center;
-            color: white;
-            display: flex; }
-            body > div.dark > div:nth-last-of-type(1) > div > div > p > img {
-              display: block;
-              position: absolute;
-              top: 0px;
-              right: 0; }
-        body > div.dark > div:nth-last-of-type(1) > div > a {
-          width: none;
-          height: none;
-          padding: none;
-          background-color: none;
-          line-height: none;
-          color: #0066cc;
-          display: block;
-          font-size: 19px;
-          text-decoration: none;
-          transition: 300ms;
-          -webkit-transition: 300ms;
-          -moz-transition: 300ms;
-          -ms-transition: 300ms;
-          -o-transition: 300ms;
-          margin-top: 15px; }
-          body > div.dark > div:nth-last-of-type(1) > div > a:hover {
-            text-decoration: underline;
-            font-size: 22px; }
-    body > div.dark > div:nth-last-of-type(2) {
-      width: 49%;
-      height: 590px;
-      background-image: url(../image/dark1.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      display: flex;
-      padding: 50px;
-      box-sizing: border-box;
-      justify-content: center; }
-      body > div.dark > div:nth-last-of-type(2) > div {
-        text-align: center; }
-        body > div.dark > div:nth-last-of-type(2) > div > h4 {
-          font-size: 40px;
-          color: white; }
-        body > div.dark > div:nth-last-of-type(2) > div > p {
-          font-size: 22px;
-          text-align: center;
-          color: white; }
-        body > div.dark > div:nth-last-of-type(2) > div > div {
-          display: flex;
-          gap: 55px;
-          justify-content: center;
-          margin-top: 10px; }
-          body > div.dark > div:nth-last-of-type(2) > div > div > a {
-            width: none;
-            height: none;
-            padding: none;
-            background-color: none;
-            line-height: none;
-            color: #0066cc;
-            display: block;
-            font-size: 19px;
-            text-decoration: none;
-            transition: 300ms;
-            -webkit-transition: 300ms;
-            -moz-transition: 300ms;
-            -ms-transition: 300ms;
-            -o-transition: 300ms; }
-            body > div.dark > div:nth-last-of-type(2) > div > div > a:hover {
-              text-decoration: underline;
-              font-size: 22px; }
-  body > div.slider {
-    width: 95%;
-    height: 700px;
-    background-color: #b9b8b8;
-    margin: 5px auto; }
-    body > div.slider .swiper {
-      width: 100%;
-      height: 100%; }
-    body > div.slider .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center; }
-    body > div.slider .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover; }
-  body > footer > div.text {
-    width: 100%;
-    height: 890px;
-    background-color: #f5f5f7;
-    display: flex;
-    margin-bottom: unset;
-    flex-direction: column; }
-    body > footer > div.text > div.about {
-      width: 70%;
-      height: 270px;
-      color: #86868b;
-      margin: 40px auto; }
-      body > footer > div.text > div.about > p {
-        font-size: 13px;
-        line-height: 1.3;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: justify; }
-        body > footer > div.text > div.about > p > span:nth-last-of-type(1) {
-          color: #6d6d6d;
-          font-weight: 600; }
-          body > footer > div.text > div.about > p > span:nth-last-of-type(1) > span {
-            color: #313131; }
-        body > footer > div.text > div.about > p > a {
-          text-decoration: none;
-          color: #535252; }
-          body > footer > div.text > div.about > p > a:hover {
-            text-decoration: underline; }
-    body > footer > div.text > hr {
-      width: 70%;
-      margin: 8px auto;
-      size: 0.2; }
-    body > footer > div.text > div.end {
-      width: 70%;
-      height: 430px;
-      margin: 0 auto;
-      display: flex;
-      flex-wrap: nowrap;
-      justify-content: space-between;
-      gap: 5px; }
-      body > footer > div.text > div.end > div > a {
-        display: block;
-        text-decoration: none;
-        width: auto;
-        height: 30px;
-        font-size: 13px;
-        color: #666666; }
-        body > footer > div.text > div.end > div > a:hover {
-          text-decoration: underline;
-          color: #313132; }
-      body > footer > div.text > div.end > div > span {
-        font-size: 13px;
-        width: auto;
-        height: 30px;
-        display: block; }
-  body > footer > div.copy {
-    width: 75%;
-    height: 130px;
-    margin: 0 auto; }
-    body > footer > div.copy > div:nth-last-of-type(2) > p {
-      font-size: 13px;
-      color: #6a6a6a; }
-      body > footer > div.copy > div:nth-last-of-type(2) > p > a {
-        text-decoration: none;
-        color: #0066cc; }
-        body > footer > div.copy > div:nth-last-of-type(2) > p > a:hover {
-          text-decoration: underline; }
-    body > footer > div.copy > hr {
-      size: 2px;
-      margin-top: 5px; }
-    body > footer > div.copy > div:nth-last-of-type(1) {
-      height: 26px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 13px;
-      color: #6a6a6a; }
