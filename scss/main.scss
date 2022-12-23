@@ -4169,26 +4169,29 @@
       }
     }
     > div.red {
-      @include red(
-        100%,
-        600px,
-        url(../image/choose_red_hero__bnqcrkgq6kia_large.jpg),
-        no-repeat,
-        center,
-        flex,
-        60px,
-        border-box,
-        center
-      );
+      width: 100%;
+      height: 400px;
+      background-repeat: no-repeat;
+      background-image: url(../image/red2.jpg);
+      object-fit: cover;
+      position: center;
+      box-sizing: border-box;
+      padding-top: 20px;
+
       > div {
         width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+
         h2 {
           align-content: center;
-          font-size: 60px;
+          font-size: 22px;
         }
         p {
           text-align: center;
-          font-size: 30px;
+          font-size: 15px;
           margin-top: 8px;
         }
         > a {
@@ -4200,7 +4203,7 @@
             none,
             #0066cc,
             block,
-            21px,
+            15px,
             none,
             300ms
           );
@@ -4216,12 +4219,12 @@
     > div.big {
       @include red(
         100%,
-        600px,
+        400px,
         url(../image/hero_iphone14__fjmsqstr1ceq_large.jpg),
         no-repeat,
         center,
         flex,
-        60px,
+        40px,
         border-box,
         center
       );
@@ -4229,11 +4232,11 @@
         width: auto;
         > h2 {
           text-align: center;
-          font-size: 60px;
+          font-size: 22px;
         }
         p {
           text-align: center;
-          font-size: 28px;
+          font-size: 15px;
           margin-top: 5px;
         }
         > div {
@@ -4250,7 +4253,7 @@
               none,
               #0066cc,
               block,
-              21px,
+              15px,
               none,
               300ms
             );
@@ -4266,7 +4269,7 @@
     > div.pro {
       @include red(
         100%,
-        600px,
+        400px,
         url(../image/hero_iphone14pro__e5xbgo5ffhg2_large.jpg),
         no-repeat,
         center,
@@ -4280,13 +4283,13 @@
         width: auto;
         > h2 {
           color: $wcolor;
-          font-size: 60px;
+          font-size: 22px;
           text-align: center;
         }
         > p {
           color: $wcolor;
           text-align: center;
-          font-size: 28px;
+          font-size: 16px;
           margin-top: 5px;
         }
         > div {
@@ -4303,7 +4306,7 @@
               none,
               #0066cc,
               block,
-              21px,
+              15px,
               none,
               300ms
             );
