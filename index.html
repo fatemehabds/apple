@@ -13,6 +13,48 @@
   </head>
   <body>
     <!-- make menu -->
+    <div class="smenu">
+      <div>
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="submenu">
+          <div>
+            <input type="text" placeholder="search apple.com" />
+          </div>
+          <hr />
+          <div>
+            <a href="">Store</a>
+          </div>
+          <hr />
+          <div><a href="">Mac</a></div>
+          <hr />
+          <div><a href="">iPad</a></div>
+          <hr />
+          <div><a href="">iPhone</a></div>
+          <hr />
+          <div><a href="">Watch</a></div>
+          <hr />
+
+          <div><a href="">AirPods</a></div>
+          <hr />
+          <div><a href="">TV & Home</a></div>
+          <hr />
+          <div><a href="">Only on apple</a></div>
+          <hr />
+          <div>
+            <a href="">Accessories</a>
+          </div>
+          <hr />
+          <div>
+            <a href=""> Support </a>
+          </div>
+        </div>
+      </div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- second menu -->
     <div class="menu">
       <nav>
         <ul>
@@ -400,6 +442,19 @@
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
+      });
+      let smenu = document.querySelector("div.smenu>div:nth-of-type(1)");
+      console.log(smenu);
+      let submenu = document.querySelector("div.submenu");
+      let flag = true;
+      smenu.addEventListener("click", function () {
+        if (flag === true) {
+          submenu.style.display = "block";
+          flag = false;
+        } else {
+          submenu.style.display = "none";
+          flag = true;
+        }
       });
     </script>
   </body>
