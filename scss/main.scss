@@ -4170,20 +4170,21 @@
     }
     > div.red {
       width: 100%;
-      height: 400px;
+      height: 300px;
       background-repeat: no-repeat;
-      background-image: url(../image/red2.jpg);
+      background-image: url(../image/choose_red_hero__bnqcrkgq6kia_large.jpg);
       object-fit: cover;
-      position: center;
-      box-sizing: border-box;
-      padding-top: 20px;
 
+      background-size: 1200px 300px;
+      background-position: center;
+      margin-top: 0;
       > div {
         width: auto;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-flow: column;
+        padding-top: 20px;
 
         h2 {
           align-content: center;
@@ -4217,18 +4218,17 @@
       }
     }
     > div.big {
-      @include red(
-        100%,
-        400px,
-        url(../image/hero_iphone14__fjmsqstr1ceq_large.jpg),
-        no-repeat,
-        center,
-        flex,
-        40px,
-        border-box,
-        center
-      );
+      width: 100%;
+      height: 300px;
+      background-repeat: no-repeat;
+      background-image: url(../image/hero_iphone14__fjmsqstr1ceq_large.jpg);
+      object-fit: cover;
+
+      background-size: 1200px 300px;
+      background-position: center;
+      margin-top: 0;
       > div {
+        margin-top: 20px;
         width: auto;
         > h2 {
           text-align: center;
@@ -4259,7 +4259,7 @@
             );
             &:hover {
               text-decoration: underline;
-              font-size: 24px;
+              font-size: 18px;
             }
           }
         }
@@ -4267,19 +4267,17 @@
     }
 
     > div.pro {
-      @include red(
-        100%,
-        400px,
-        url(../image/hero_iphone14pro__e5xbgo5ffhg2_large.jpg),
-        no-repeat,
-        center,
-        flex,
-        40px,
-        border-box,
-        center
-      );
-      margin-top: 5px;
+      width: 100%;
+      height: 400px;
+      background-repeat: no-repeat;
+      background-image: url(../image/dark1.jpg);
+      object-fit: cover;
+
+      background-size: 1200px 400px;
+      background-position: center;
+
       > div {
+        margin-top: 15px;
         width: auto;
         > h2 {
           color: $wcolor;
@@ -4312,7 +4310,7 @@
             );
             &:hover {
               text-decoration: underline;
-              font-size: 24px;
+              font-size: 18px;
             }
           }
         }
@@ -4328,9 +4326,10 @@
     // $boxsize,
     // $justify
     > div.Give {
+      display: none;
       width: 100%;
-      height: 600px;
-      display: flex;
+      height: 400px;
+
       justify-content: space-around;
       margin-top: 10px;
       > div:nth-last-of-type(1) {
@@ -4340,11 +4339,12 @@
           url(../image/g1.jpg),
           no-repeat,
           center,
-          flex,
+          none,
           50px,
           border-box,
           center
         );
+
         position: relative;
         > div {
           position: absolute;
@@ -4386,11 +4386,12 @@
           url(../image/promo_apple_watch_series_8__ch7rexplmihe_large.jpg),
           no-repeat,
           center,
-          flex,
+          none,
           50px,
           border-box,
           center
         );
+
         > div {
           text-align: center;
           > p {
@@ -4425,10 +4426,86 @@
         }
       }
     }
+    > div.sm {
+      width: 100%;
+      height: 500px;
+      background-image: url(../image/g1.jpg);
+      background-repeat: no-repeat;
+      margin-top: 20px;
+      object-fit: cover;
+      background-size: 1200px 500px;
+      background-position: center;
+      position: relative;
+      > div {
+        position: absolute;
+        bottom: 15px;
+        right: 50px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        > h2,
+        p {
+          color: $wcolor;
+        }
+        > a {
+          @include atag(
+            none,
+            none,
+            none,
+            none,
+            none,
+            #0066cc,
+            block,
+            17px,
+            none,
+            300ms
+          );
+          &:hover {
+            text-decoration: underline;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    > div.pm {
+      width: 100%;
+      height: 450px;
+      background-image: url(../image/pod1.jpg);
+      background-repeat: no-repeat;
+      margin-top: 20px;
+      object-fit: cover;
+      background-size: 1200px 450px;
+      background-position: center;
+      position: relative;
+      > div {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        > p {
+          font-size: 17px;
+          margin-top: 5px;
+          margin-bottom: 5px;
+        }
+        > div > a {
+          text-decoration: none;
+          font-size: 17px;
+          color: #0066cc;
+          &:hover {
+            text-decoration: underline;
+            font-size: 19px;
+          }
+        }
+      }
+    }
     > div.pods {
+      display: none;
       width: 100%;
       height: 600px;
-      display: flex;
+
       justify-content: space-around;
       margin-top: 10px;
       > div:nth-last-of-type(1) {
@@ -4526,7 +4603,7 @@
       width: 100%;
       height: 600px;
 
-      display: flex;
+      display: none;
       justify-content: space-around;
       margin-top: 10px;
       > div:nth-last-of-type(1) {
@@ -4632,6 +4709,42 @@
                 font-size: 22px;
               }
             }
+          }
+        }
+      }
+    }
+    div.dm {
+      width: 100%;
+      height: 450px;
+      background-image: url(../image/dark2.jpg);
+      background-repeat: no-repeat;
+      margin-top: 20px;
+      object-fit: cover;
+      background-size: 1200px 450px;
+      background-position: center;
+      position: relative;
+      padding-top: 30px;
+      > div {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        > h2 {
+          color: $wcolor;
+        }
+        > p {
+          color: $wcolor;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        > div > a {
+          text-decoration: none;
+          font-size: 17px;
+          color: #0066cc;
+          &:hover {
+            text-decoration: underline;
+            font-size: 19px;
           }
         }
       }
