@@ -1998,24 +1998,25 @@
     > div.red {
       @include red(
         100%,
-        600px,
+        380px,
         url(../image/choose_red_hero__bnqcrkgq6kia_large.jpg),
         no-repeat,
         center,
         flex,
-        60px,
+        20px,
         border-box,
         center
       );
+      background-size: 1200px 380px;
       > div {
         width: auto;
         h2 {
           align-content: center;
-          font-size: 60px;
+          font-size: 43px;
         }
         p {
           text-align: center;
-          font-size: 30px;
+          font-size: 25px;
           margin-top: 8px;
         }
         > a {
@@ -2027,13 +2028,13 @@
             none,
             #0066cc,
             block,
-            21px,
+            20px,
             none,
             300ms
           );
           &:hover {
             text-decoration: underline;
-            font-size: 24px;
+            font-size: 21px;
           }
           text-align: center;
           margin-top: 20px;
@@ -2048,7 +2049,7 @@
         no-repeat,
         center,
         flex,
-        60px,
+        43px,
         border-box,
         center
       );
@@ -2056,11 +2057,11 @@
         width: auto;
         > h2 {
           text-align: center;
-          font-size: 60px;
+          font-size: 45px;
         }
         p {
           text-align: center;
-          font-size: 28px;
+          font-size: 25px;
           margin-top: 5px;
         }
         > div {
@@ -2077,13 +2078,13 @@
               none,
               #0066cc,
               block,
-              21px,
+              20px,
               none,
               300ms
             );
             &:hover {
               text-decoration: underline;
-              font-size: 24px;
+              font-size: 21px;
             }
           }
         }
@@ -2107,13 +2108,14 @@
         width: auto;
         > h2 {
           color: $wcolor;
-          font-size: 60px;
+          font-size: 43px;
           text-align: center;
         }
         > p {
           color: $wcolor;
           text-align: center;
-          font-size: 28px;
+          font-size: 25px;
+          margin-top: 5px;
           margin-top: 5px;
         }
         > div {
@@ -2136,7 +2138,7 @@
             );
             &:hover {
               text-decoration: underline;
-              font-size: 24px;
+              font-size: 22px;
             }
           }
         }
@@ -2169,6 +2171,7 @@
           border-box,
           center
         );
+
         position: relative;
         > div {
           position: absolute;
@@ -2176,11 +2179,12 @@
           text-align: center;
           > h2 {
             color: $wcolor;
-            font-size: 50px;
+            font-size: 33px;
           }
           > p {
             color: $wcolor;
-            font-size: 22px;
+            font-size: 17px;
+            margin-top: 5px;
           }
           > a {
             @include atag(
@@ -2191,14 +2195,14 @@
               none,
               #0066cc,
               block,
-              19px,
+              17px,
               none,
               300ms
             );
             margin-top: 20px;
             &:hover {
               text-decoration: underline;
-              font-size: 22px;
+              font-size: 19px;
             }
           }
         }
@@ -2215,12 +2219,14 @@
           border-box,
           center
         );
+
         > div {
           text-align: center;
           > p {
             color: $wcolor;
-            font-size: 22px;
+            font-size: 20px;
             text-align: center;
+            margin-top: 10px;
           }
           > div {
             display: flex;
@@ -2236,18 +2242,21 @@
                 none,
                 #0066cc,
                 block,
-                19px,
+                17px,
                 none,
                 300ms
               );
               &:hover {
                 text-decoration: underline;
-                font-size: 22px;
+                font-size: 19px;
               }
             }
           }
         }
       }
+    }
+    > div.sm {
+      display: none;
     }
     > div.pods {
       width: 100%;
@@ -2257,13 +2266,13 @@
       margin-top: 10px;
       > div:nth-last-of-type(1) {
         @include red(
-          49%,
+          100%,
           590px,
           url(../image/pod2.jpg),
           no-repeat,
           center,
           flex,
-          40px,
+          30px,
           border-box,
           center
         );
@@ -2272,10 +2281,10 @@
           bottom: 50px;
           text-align: center;
           > h2 {
-            font-size: 50px;
+            font-size: 45px;
           }
           > p {
-            font-size: 22px;
+            font-size: 20px;
           }
           > a {
             @include atag(
@@ -2293,7 +2302,7 @@
             margin-top: 15px;
             &:hover {
               text-decoration: underline;
-              font-size: 22px;
+              font-size: 21px;
             }
           }
         }
@@ -2305,7 +2314,7 @@
           url(../image/pod1.jpg),
           no-repeat,
           center,
-          flex,
+          none,
           50px,
           border-box,
           center
@@ -2346,6 +2355,9 @@
         }
       }
     }
+    div.pm {
+      display: none;
+    }
     > div.dark {
       width: 100%;
       height: 600px;
@@ -2353,6 +2365,7 @@
       display: flex;
       justify-content: space-around;
       margin-top: 10px;
+      background-size: 1200px 600px;
       > div:nth-last-of-type(1) {
         @include red(
           49%,
@@ -2365,11 +2378,13 @@
           border-box,
           center
         );
+
         > div {
           text-align: center;
           > h4 {
-            font-size: 40px;
+            font-size: 30px;
             color: $wcolor;
+            margin-bottom: 15px;
           }
           > div {
             position: relative;
@@ -2377,7 +2392,7 @@
             height: 40px;
 
             > p {
-              font-size: 22px;
+              font-size: 19px;
               text-align: center;
               color: $wcolor;
               display: flex;
@@ -2398,14 +2413,14 @@
               none,
               #0066cc,
               block,
-              19px,
+              17px,
               none,
               300ms
             );
             margin-top: 15px;
             &:hover {
               text-decoration: underline;
-              font-size: 22px;
+              font-size: 19px;
             }
           }
         }
@@ -2425,11 +2440,11 @@
         > div {
           text-align: center;
           > h4 {
-            font-size: 40px;
+            font-size: 30px;
             color: $wcolor;
           }
           > p {
-            font-size: 22px;
+            font-size: 19px;
             text-align: center;
             color: $wcolor;
           }
@@ -2447,18 +2462,21 @@
                 none,
                 #0066cc,
                 block,
-                19px,
+                17px,
                 none,
                 300ms
               );
               &:hover {
                 text-decoration: underline;
-                font-size: 22px;
+                font-size: 19px;
               }
             }
           }
         }
       }
+    }
+    div.dm {
+      display: none;
     }
     > div.slider {
       width: 95%;
@@ -2499,19 +2517,19 @@
     }
     > footer > div.text {
       width: 100%;
-      height: 890px;
+      height: 1000px;
       background-color: #f5f5f7;
       display: flex;
       margin-bottom: unset;
 
       flex-direction: column;
       > div.about {
-        width: 88%;
-        height: 270px;
+        width: 90%;
+        height: 444px;
         color: #86868b;
         margin: 10px auto;
         > p {
-          font-size: 10px;
+          font-size: 14px;
           line-height: 1.3;
           font-family: Arial, Helvetica, sans-serif;
           text-align: justify;
@@ -2532,12 +2550,11 @@
         }
       }
       > hr {
-        width: 80%;
+        width: 90%;
         margin: 8px auto;
-        size: 0.2;
       }
       > div.end {
-        width: 70%;
+        width: 90%;
 
         height: 430px;
         margin: 0 auto;
@@ -2551,7 +2568,7 @@
           width: auto;
           height: 30px;
 
-          font-size: 11.5px;
+          font-size: 14px;
           color: #666666;
           &:hover {
             text-decoration: underline;
@@ -2572,7 +2589,7 @@
 
       margin: 0 auto;
       > div:nth-last-of-type(2) > p {
-        font-size: 12px;
+        font-size: 15px;
         color: #6a6a6a;
         > a {
           text-decoration: none;
