@@ -3441,25 +3441,26 @@
     > div.red {
       @include red(
         100%,
-        600px,
+        350px,
         url(../image/choose_red_hero__bnqcrkgq6kia_large.jpg),
         no-repeat,
         center,
         flex,
-        60px,
+        45px,
         border-box,
         center
       );
+      background-size: 1200px 350px;
       > div {
         width: auto;
         h2 {
           align-content: center;
-          font-size: 60px;
+          font-size: 30px;
         }
         p {
           text-align: center;
-          font-size: 30px;
-          margin-top: 8px;
+          font-size: 18px;
+          margin-top: 12px;
         }
         > a {
           @include atag(
@@ -3470,13 +3471,13 @@
             none,
             #0066cc,
             block,
-            21px,
+            18px,
             none,
             300ms
           );
           &:hover {
             text-decoration: underline;
-            font-size: 24px;
+            font-size: 21px;
           }
           text-align: center;
           margin-top: 20px;
@@ -3486,24 +3487,25 @@
     > div.big {
       @include red(
         100%,
-        600px,
+        350px,
         url(../image/hero_iphone14__fjmsqstr1ceq_large.jpg),
         no-repeat,
         center,
         flex,
-        60px,
+        45px,
         border-box,
         center
       );
+      background-size: 1200px 350px;
       > div {
         width: auto;
         > h2 {
           text-align: center;
-          font-size: 60px;
+          font-size: 30px;
         }
         p {
           text-align: center;
-          font-size: 28px;
+          font-size: 18px;
           margin-top: 5px;
         }
         > div {
@@ -3520,13 +3522,13 @@
               none,
               #0066cc,
               block,
-              21px,
+              18px,
               none,
               300ms
             );
             &:hover {
               text-decoration: underline;
-              font-size: 24px;
+              font-size: 21px;
             }
           }
         }
@@ -3536,7 +3538,7 @@
     > div.pro {
       @include red(
         100%,
-        600px,
+        400px,
         url(../image/hero_iphone14pro__e5xbgo5ffhg2_large.jpg),
         no-repeat,
         center,
@@ -3545,18 +3547,19 @@
         border-box,
         center
       );
+      background-size: 1200px 400px;
       margin-top: 5px;
       > div {
         width: auto;
         > h2 {
           color: $wcolor;
-          font-size: 60px;
+          font-size: 30px;
           text-align: center;
         }
         > p {
           color: $wcolor;
           text-align: center;
-          font-size: 28px;
+          font-size: 18px;
           margin-top: 5px;
         }
         > div {
@@ -3573,13 +3576,13 @@
               none,
               #0066cc,
               block,
-              21px,
+              18px,
               none,
               300ms
             );
             &:hover {
               text-decoration: underline;
-              font-size: 24px;
+              font-size: 21px;
             }
           }
         }
@@ -3597,7 +3600,7 @@
     > div.Give {
       width: 100%;
       height: 600px;
-      display: flex;
+      display: none;
       justify-content: space-around;
       margin-top: 10px;
       > div:nth-last-of-type(1) {
@@ -3692,10 +3695,54 @@
         }
       }
     }
+    > div.sm {
+      width: 100%;
+      height: 500px;
+      background-image: url(../image/g1.jpg);
+      background-repeat: no-repeat;
+      margin-top: 20px;
+      object-fit: cover;
+      background-size: 1200px 500px;
+      background-position: center;
+      position: relative;
+      > div {
+        position: absolute;
+        bottom: 15px;
+        right: 145px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        > h2,
+        p {
+          color: $wcolor;
+          text-align: center;
+        }
+        > a {
+          @include atag(
+            none,
+            none,
+            none,
+            none,
+            none,
+            #0066cc,
+            block,
+            15px,
+            none,
+            300ms
+          );
+          &:hover {
+            text-decoration: underline;
+            font-size: 17px;
+          }
+        }
+      }
+    }
     > div.pods {
       width: 100%;
       height: 600px;
-      display: flex;
+      display: none;
       justify-content: space-around;
       margin-top: 10px;
       > div:nth-last-of-type(1) {
@@ -3789,11 +3836,52 @@
         }
       }
     }
+    > div.pm {
+      width: 100%;
+      height: 450px;
+      background-image: url(../image/pod1.jpg);
+      background-repeat: no-repeat;
+      margin-top: 20px;
+      object-fit: cover;
+      background-size: 1200px 450px;
+      background-position: center;
+      position: relative;
+      > div {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        > h2 {
+          font-size: 30px;
+        }
+        > p {
+          font-size: 18px;
+          margin-top: 5px;
+          margin-bottom: 5px;
+        }
+        > div > a {
+          text-decoration: none;
+          font-size: 18px;
+          color: #0066cc;
+          margin-right: 30px;
+          &:hover {
+            text-decoration: underline;
+            font-size: 20px;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+          }
+        }
+      }
+    }
     > div.dark {
       width: 100%;
       height: 600px;
 
-      display: flex;
+      display: none;
       justify-content: space-around;
       margin-top: 10px;
       > div:nth-last-of-type(1) {
@@ -3903,6 +3991,50 @@
         }
       }
     }
+    div.dm {
+      width: 100%;
+      height: 450px;
+      background-image: url(../image/dark2.jpg);
+      background-repeat: no-repeat;
+      margin-top: 20px;
+      object-fit: cover;
+      background-size: 1200px 450px;
+      background-position: center;
+      position: relative;
+      padding-top: 30px;
+      > div {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        > h2 {
+          color: $wcolor;
+          font-size: 30px;
+        }
+        > p {
+          color: $wcolor;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          font-size: 13px;
+        }
+        > div > a {
+          text-decoration: none;
+          font-size: 18px;
+          color: #0066cc;
+          margin-right: 30px;
+          &:hover {
+            text-decoration: underline;
+            font-size: 20px;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms;
+          }
+        }
+      }
+    }
     > div.slider {
       width: 95%;
       height: 700px;
@@ -3942,19 +4074,19 @@
     }
     > footer > div.text {
       width: 100%;
-      height: 890px;
+      height: 1100px;
       background-color: #f5f5f7;
       display: flex;
       margin-bottom: unset;
 
       flex-direction: column;
       > div.about {
-        width: 70%;
-        height: 270px;
+        width: 85%;
+        height: 550px;
         color: #86868b;
-        margin: 40px auto;
+        margin: 10px auto;
         > p {
-          font-size: 13px;
+          font-size: 12.5px;
           line-height: 1.3;
           font-family: Arial, Helvetica, sans-serif;
           text-align: justify;
@@ -3975,14 +4107,14 @@
         }
       }
       > hr {
-        width: 70%;
+        width: 85%;
         margin: 8px auto;
         size: 0.2;
       }
       > div.end {
-        width: 70%;
+        width: 85%;
 
-        height: 430px;
+        height: 700px;
         margin: 0 auto;
         display: flex;
         flex-wrap: nowrap;
@@ -3994,7 +4126,7 @@
           width: auto;
           height: 30px;
 
-          font-size: 13px;
+          font-size: 12px;
           color: #666666;
           &:hover {
             text-decoration: underline;
@@ -4002,7 +4134,7 @@
           }
         }
         > div > span {
-          font-size: 13px;
+          font-size: 12px;
           width: auto;
           height: 30px;
           display: block;
@@ -4010,12 +4142,12 @@
       }
     }
     > footer > div.copy {
-      width: 75%;
-      height: 130px;
+      width: 85%;
+      height: 120px;
 
       margin: 0 auto;
       > div:nth-last-of-type(2) > p {
-        font-size: 13px;
+        font-size: 12px;
         color: #6a6a6a;
         > a {
           text-decoration: none;
