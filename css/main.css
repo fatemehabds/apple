@@ -3670,7 +3670,7 @@
       body > div.sm > div {
         position: absolute;
         bottom: 15px;
-        right: 50px;
+        right: 80px;
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -3678,7 +3678,8 @@
         width: auto; }
         body > div.sm > div > h2,
         body > div.sm > div p {
-          color: white; }
+          color: white;
+          text-align: center; }
         body > div.sm > div > a {
           width: none;
           height: none;
@@ -3687,7 +3688,7 @@
           line-height: none;
           color: #0066cc;
           display: block;
-          font-size: 17px;
+          font-size: 15px;
           text-decoration: none;
           transition: 300ms;
           -webkit-transition: 300ms;
@@ -3696,7 +3697,7 @@
           -o-transition: 300ms; }
           body > div.sm > div > a:hover {
             text-decoration: underline;
-            font-size: 20px; }
+            font-size: 17px; }
     body > div.pm {
       width: 100%;
       height: 450px;
@@ -3719,11 +3720,17 @@
           margin-bottom: 5px; }
         body > div.pm > div > div > a {
           text-decoration: none;
-          font-size: 17px;
-          color: #0066cc; }
+          font-size: 15px;
+          color: #0066cc;
+          margin-right: 30px; }
           body > div.pm > div > div > a:hover {
             text-decoration: underline;
-            font-size: 19px; }
+            font-size: 17px;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
     body > div.pods {
       display: none;
       width: 100%;
@@ -3927,11 +3934,17 @@
           margin-bottom: 10px; }
         body div.dm > div > div > a {
           text-decoration: none;
-          font-size: 17px;
-          color: #0066cc; }
+          font-size: 15px;
+          color: #0066cc;
+          margin-right: 30px; }
           body div.dm > div > div > a:hover {
             text-decoration: underline;
-            font-size: 19px; }
+            font-size: 17px;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
     body > div.slider {
       width: 95%;
       height: 700px;
