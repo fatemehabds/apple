@@ -2169,7 +2169,7 @@
         body > div.smenu > div:nth-of-type(1) > div.submenu {
           display: none;
           width: 500px;
-          height: 700px;
+          height: 600px;
           background-color: #000000;
           z-index: 2;
           position: absolute;
@@ -2193,7 +2193,8 @@
             justify-content: center !important;
             align-items: center !important;
             padding-left: unset;
-            padding-top: unset; }
+            padding-top: unset;
+            padding: 7px; }
           body > div.smenu > div:nth-of-type(1) > div.submenu > div:nth-of-type(1) > input {
             border: unset;
             background-color: #333435;
@@ -2202,8 +2203,8 @@
             -moz-border-radius: 12px;
             -ms-border-radius: 12px;
             -o-border-radius: 12px;
-            width: 450px;
-            height: 20px;
+            width: 400px;
+            height: 13px;
             padding: 10px;
             font-size: 20px; }
     body > div.menu {
@@ -2243,14 +2244,14 @@
                 color: white;
                 font-size: 15px; }
     body > div.red {
-      width: inherit;
-      height: 600px;
+      width: 100%;
+      height: 350px;
       background-image: url(../image/choose_red_hero__bnqcrkgq6kia_large.jpg);
-      padding-top: 20px;
+      padding-top: 40px;
       background-repeat: no-repeat;
       background-position: center;
       box-sizing: border-box;
-      background-size: cover; }
+      background-size: 1200px 350px; }
       body > div.red > div {
         width: auto;
         display: flex;
@@ -2259,10 +2260,10 @@
         align-items: center; }
         body > div.red > div h2 {
           align-content: center;
-          font-size: 25px; }
+          font-size: 31px; }
         body > div.red > div p {
           text-align: center;
-          font-size: 18px;
+          font-size: 20px;
           margin-top: 8px; }
         body > div.red > div > a {
           width: none;
@@ -2283,7 +2284,7 @@
           margin-top: 20px; }
           body > div.red > div > a:hover {
             text-decoration: underline;
-            font-size: 24px; }
+            font-size: 22px; }
     body > div.big {
       width: 100%;
       height: 600px;
@@ -2298,10 +2299,10 @@
         width: auto; }
         body > div.big > div > h2 {
           text-align: center;
-          font-size: 30px; }
+          font-size: 33px; }
         body > div.big > div p {
           text-align: center;
-          font-size: 18px;
+          font-size: 20px;
           margin-top: 5px; }
         body > div.big > div > div {
           display: flex;
@@ -2325,7 +2326,7 @@
             -o-transition: 300ms; }
             body > div.big > div > div > a:hover {
               text-decoration: underline;
-              font-size: 24px; }
+              font-size: 22px; }
     body > div.pro {
       width: 100%;
       height: 600px;
@@ -2346,7 +2347,7 @@
         body > div.pro > div > p {
           color: white;
           text-align: center;
-          font-size: 18px;
+          font-size: 20px;
           margin-top: 5px; }
         body > div.pro > div > div {
           display: flex;
@@ -2370,11 +2371,11 @@
             -o-transition: 300ms; }
             body > div.pro > div > div > a:hover {
               text-decoration: underline;
-              font-size: 24px; }
+              font-size: 20px; }
     body > div.Give {
       width: 100%;
       height: 600px;
-      display: flex;
+      display: none;
       justify-content: space-around;
       margin-top: 10px; }
       body > div.Give > div:nth-last-of-type(1) {
@@ -2456,10 +2457,54 @@
               body > div.Give > div:nth-last-of-type(2) > div > div > a:hover {
                 text-decoration: underline;
                 font-size: 22px; }
+    body > div.sm {
+      width: 100%;
+      height: 500px;
+      background-image: url(../image/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+      background-repeat: no-repeat;
+      margin-top: 20px;
+      object-fit: cover;
+      background-size: 1200px 500px;
+      background-position: center; }
+      body > div.sm > div {
+        bottom: 15px;
+        right: 145px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        padding: 25px;
+        gap: 17px; }
+        body > div.sm > div > h2 {
+          font-size: 30px;
+          color: white; }
+        body > div.sm > div p {
+          color: white;
+          text-align: center;
+          font-size: 20px; }
+        body > div.sm > div > a {
+          width: none;
+          height: none;
+          padding: none;
+          background-color: none;
+          line-height: none;
+          color: #0066cc;
+          display: block;
+          font-size: 19px;
+          text-decoration: none;
+          transition: 300ms;
+          -webkit-transition: 300ms;
+          -moz-transition: 300ms;
+          -ms-transition: 300ms;
+          -o-transition: 300ms; }
+          body > div.sm > div > a:hover {
+            text-decoration: underline;
+            font-size: 20px; }
     body > div.pods {
       width: 100%;
       height: 600px;
-      display: flex;
+      display: none;
       justify-content: space-around;
       margin-top: 10px; }
       body > div.pods > div:nth-last-of-type(1) {
@@ -2538,10 +2583,45 @@
               body > div.pods > div:nth-last-of-type(2) > div > div > a:hover {
                 text-decoration: underline;
                 font-size: 22px; }
+    body > div.pm {
+      width: 100%;
+      height: 450px;
+      background-image: url(../image/pod1.jpg);
+      background-repeat: no-repeat;
+      margin-top: 20px;
+      object-fit: cover;
+      background-size: 1200px 450px;
+      background-position: center;
+      position: relative; }
+      body > div.pm > div {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        width: auto; }
+        body > div.pm > div > h2 {
+          font-size: 35px; }
+        body > div.pm > div > p {
+          font-size: 22px;
+          margin-top: 5px;
+          margin-bottom: 5px; }
+        body > div.pm > div > div > a {
+          text-decoration: none;
+          font-size: 19px;
+          color: #0066cc;
+          margin-right: 30px; }
+          body > div.pm > div > div > a:hover {
+            text-decoration: underline;
+            font-size: 20px;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
     body > div.dark {
       width: 100%;
       height: 600px;
-      display: flex;
+      display: none;
       justify-content: space-around;
       margin-top: 10px; }
       body > div.dark > div:nth-last-of-type(1) {
@@ -2634,6 +2714,44 @@
               body > div.dark > div:nth-last-of-type(2) > div > div > a:hover {
                 text-decoration: underline;
                 font-size: 22px; }
+    body div.dm {
+      width: 100%;
+      height: 450px;
+      background-image: url(../image/dark2.jpg);
+      background-repeat: no-repeat;
+      margin-top: 20px;
+      object-fit: cover;
+      background-size: 1200px 450px;
+      background-position: center;
+      position: relative;
+      padding-top: 30px; }
+      body div.dm > div {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        width: auto; }
+        body div.dm > div > h2 {
+          color: white;
+          font-size: 30px; }
+        body div.dm > div > p {
+          color: white;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          font-size: 18px; }
+        body div.dm > div > div > a {
+          text-decoration: none;
+          font-size: 17px;
+          color: #0066cc;
+          margin-right: 30px; }
+          body div.dm > div > div > a:hover {
+            text-decoration: underline;
+            font-size: 29px;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
     body > div.slider {
       width: 95%;
       height: 700px;
@@ -2666,14 +2784,14 @@
         object-fit: cover; }
     body > footer > div.text {
       width: 100%;
-      height: 890px;
+      height: 850px;
       background-color: #f5f5f7;
       display: flex;
       margin-bottom: unset;
       flex-direction: column; }
       body > footer > div.text > div.about {
         width: 90%;
-        height: 550px;
+        height: 500px;
         color: #86868b;
         margin: 10px auto; }
         body > footer > div.text > div.about > p {
@@ -2692,12 +2810,12 @@
             body > footer > div.text > div.about > p > a:hover {
               text-decoration: underline; }
       body > footer > div.text > hr {
-        width: 80%;
+        width: 89%;
         margin: 8px auto;
         size: 0.2; }
       body > footer > div.text > div.end {
         width: 92%;
-        height: 300px;
+        height: 250px;
         margin: 0 auto;
         display: flex;
         flex-wrap: nowrap;
@@ -2708,7 +2826,7 @@
           text-decoration: none;
           width: auto;
           height: 30px;
-          font-size: 12px;
+          font-size: 13px;
           color: #666666; }
           body > footer > div.text > div.end > div > a:hover {
             text-decoration: underline;
@@ -2767,7 +2885,7 @@
         body > div.smenu > div:nth-of-type(1) > div.submenu {
           display: none;
           width: 500px;
-          height: 700px;
+          height: 550px;
           background-color: #000000;
           z-index: 2;
           position: absolute;
@@ -2791,7 +2909,9 @@
             justify-content: center !important;
             align-items: center !important;
             padding-left: unset;
-            padding-top: unset; }
+            padding-top: unset;
+            padding-top: 5px;
+            padding-bottom: 5px; }
           body > div.smenu > div:nth-of-type(1) > div.submenu > div:nth-of-type(1) > input {
             border: unset;
             background-color: #333435;
@@ -2800,8 +2920,8 @@
             -moz-border-radius: 12px;
             -ms-border-radius: 12px;
             -o-border-radius: 12px;
-            width: 450px;
-            height: 20px;
+            width: 350px;
+            height: 10px;
             padding: 10px;
             font-size: 20px; }
     body > div.menu {
