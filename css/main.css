@@ -7,6 +7,10 @@
     font-family: ps; }
     body > div.smenu {
       display: none; }
+    body > div.sm,
+    body div.pm,
+    body div.dm {
+      display: none; }
     body > div.menu {
       width: 100%;
       height: 45px;
@@ -469,7 +473,7 @@
       margin-bottom: unset;
       flex-direction: column; }
       body > footer > div.text > div.about {
-        width: 70%;
+        width: 80%;
         height: 270px;
         color: #86868b;
         margin: 40px auto; }
@@ -489,11 +493,11 @@
             body > footer > div.text > div.about > p > a:hover {
               text-decoration: underline; }
       body > footer > div.text > hr {
-        width: 70%;
+        width: 75%;
         margin: 8px auto;
         size: 0.2; }
       body > footer > div.text > div.end {
-        width: 70%;
+        width: 80%;
         height: 430px;
         margin: 0 auto;
         display: flex;
@@ -541,6 +545,10 @@
   body {
     font-family: ps; }
     body > div.smenu {
+      display: none; }
+    body > div.sm,
+    body div.pm,
+    body div.dm {
       display: none; }
     body > div.menu {
       width: 100%;
@@ -1004,7 +1012,7 @@
       margin-bottom: unset;
       flex-direction: column; }
       body > footer > div.text > div.about {
-        width: 70%;
+        width: 80%;
         height: 270px;
         color: #86868b;
         margin: 40px auto; }
@@ -1024,11 +1032,11 @@
             body > footer > div.text > div.about > p > a:hover {
               text-decoration: underline; }
       body > footer > div.text > hr {
-        width: 70%;
+        width: 75%;
         margin: 8px auto;
         size: 0.2; }
       body > footer > div.text > div.end {
-        width: 70%;
+        width: 80%;
         height: 430px;
         margin: 0 auto;
         display: flex;
@@ -1114,22 +1122,23 @@
                 font-size: 15px; }
     body > div.red {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: url(../image/choose_red_hero__bnqcrkgq6kia_large.jpg);
       background-repeat: no-repeat;
       background-position: center;
       display: flex;
-      padding: 60px;
+      padding: 50px;
       box-sizing: border-box;
-      justify-content: center; }
+      justify-content: center;
+      background-size: 1300px 550px; }
       body > div.red > div {
         width: auto; }
         body > div.red > div h2 {
           align-content: center;
-          font-size: 60px; }
+          font-size: 52px; }
         body > div.red > div p {
           text-align: center;
-          font-size: 30px;
+          font-size: 27px;
           margin-top: 8px; }
         body > div.red > div > a {
           width: none;
@@ -1150,7 +1159,7 @@
           margin-top: 20px; }
           body > div.red > div > a:hover {
             text-decoration: underline;
-            font-size: 24px; }
+            font-size: 22px; }
     body > div.big {
       width: 100%;
       height: 600px;
@@ -1158,17 +1167,17 @@
       background-repeat: no-repeat;
       background-position: center;
       display: flex;
-      padding: 60px;
+      padding: 50px;
       box-sizing: border-box;
       justify-content: center; }
       body > div.big > div {
         width: auto; }
         body > div.big > div > h2 {
           text-align: center;
-          font-size: 60px; }
+          font-size: 52px; }
         body > div.big > div p {
           text-align: center;
-          font-size: 28px;
+          font-size: 26px;
           margin-top: 5px; }
         body > div.big > div > div {
           display: flex;
@@ -1183,7 +1192,7 @@
             line-height: none;
             color: #0066cc;
             display: block;
-            font-size: 21px;
+            font-size: 20px;
             text-decoration: none;
             transition: 300ms;
             -webkit-transition: 300ms;
@@ -1192,7 +1201,7 @@
             -o-transition: 300ms; }
             body > div.big > div > div > a:hover {
               text-decoration: underline;
-              font-size: 24px; }
+              font-size: 21px; }
     body > div.pro {
       width: 100%;
       height: 600px;
@@ -1208,12 +1217,12 @@
         width: auto; }
         body > div.pro > div > h2 {
           color: white;
-          font-size: 60px;
+          font-size: 51px;
           text-align: center; }
         body > div.pro > div > p {
           color: white;
           text-align: center;
-          font-size: 28px;
+          font-size: 26px;
           margin-top: 5px; }
         body > div.pro > div > div {
           display: flex;
@@ -1228,7 +1237,7 @@
             line-height: none;
             color: #0066cc;
             display: block;
-            font-size: 21px;
+            font-size: 20px;
             text-decoration: none;
             transition: 300ms;
             -webkit-transition: 300ms;
@@ -1237,7 +1246,7 @@
             -o-transition: 300ms; }
             body > div.pro > div > div > a:hover {
               text-decoration: underline;
-              font-size: 24px; }
+              font-size: 21px; }
     body > div.Give {
       width: 100%;
       height: 600px;
@@ -1261,10 +1270,11 @@
           text-align: center; }
           body > div.Give > div:nth-last-of-type(1) > div > h2 {
             color: white;
-            font-size: 50px; }
+            font-size: 38px;
+            margin-bottom: 10px; }
           body > div.Give > div:nth-last-of-type(1) > div > p {
             color: white;
-            font-size: 22px; }
+            font-size: 18px; }
           body > div.Give > div:nth-last-of-type(1) > div > a {
             width: none;
             height: none;
@@ -1273,7 +1283,7 @@
             line-height: none;
             color: #0066cc;
             display: block;
-            font-size: 19px;
+            font-size: 17px;
             text-decoration: none;
             transition: 300ms;
             -webkit-transition: 300ms;
@@ -1283,7 +1293,7 @@
             margin-top: 20px; }
             body > div.Give > div:nth-last-of-type(1) > div > a:hover {
               text-decoration: underline;
-              font-size: 22px; }
+              font-size: 18px; }
       body > div.Give > div:nth-last-of-type(2) {
         width: 49%;
         height: 590px;
@@ -1299,7 +1309,8 @@
           body > div.Give > div:nth-last-of-type(2) > div > p {
             color: white;
             font-size: 22px;
-            text-align: center; }
+            text-align: center;
+            margin: 5px; }
           body > div.Give > div:nth-last-of-type(2) > div > div {
             display: flex;
             gap: 55px;
@@ -1313,7 +1324,7 @@
               line-height: none;
               color: #0066cc;
               display: block;
-              font-size: 19px;
+              font-size: 18px;
               text-decoration: none;
               transition: 300ms;
               -webkit-transition: 300ms;
@@ -1322,7 +1333,9 @@
               -o-transition: 300ms; }
               body > div.Give > div:nth-last-of-type(2) > div > div > a:hover {
                 text-decoration: underline;
-                font-size: 22px; }
+                font-size: 19px; }
+    body > div.sm {
+      display: none; }
     body > div.pods {
       width: 100%;
       height: 600px;
@@ -1405,6 +1418,8 @@
               body > div.pods > div:nth-last-of-type(2) > div > div > a:hover {
                 text-decoration: underline;
                 font-size: 22px; }
+    body > div.pm {
+      display: none; }
     body > div.dark {
       width: 100%;
       height: 600px;
@@ -1501,6 +1516,8 @@
               body > div.dark > div:nth-last-of-type(2) > div > div > a:hover {
                 text-decoration: underline;
                 font-size: 22px; }
+    body > div.dm {
+      display: none; }
     body > div.slider {
       width: 95%;
       height: 700px;
@@ -1533,18 +1550,18 @@
         object-fit: cover; }
     body > footer > div.text {
       width: 100%;
-      height: 890px;
+      height: 990px;
       background-color: #f5f5f7;
       display: flex;
       margin-bottom: unset;
       flex-direction: column; }
       body > footer > div.text > div.about {
-        width: 70%;
-        height: 270px;
+        width: 90%;
+        height: 339px;
         color: #86868b;
-        margin: 40px auto; }
+        margin: 30px auto; }
         body > footer > div.text > div.about > p {
-          font-size: 11px;
+          font-size: 14px;
           line-height: 1.3;
           font-family: Arial, Helvetica, sans-serif;
           text-align: justify; }
@@ -1559,12 +1576,12 @@
             body > footer > div.text > div.about > p > a:hover {
               text-decoration: underline; }
       body > footer > div.text > hr {
-        width: 70%;
+        width: 89%;
         margin: 8px auto;
         size: 0.2; }
       body > footer > div.text > div.end {
-        width: 70%;
-        height: 430px;
+        width: 90%;
+        height: 580px;
         margin: 0 auto;
         display: flex;
         flex-wrap: nowrap;
@@ -1586,11 +1603,11 @@
           height: 30px;
           display: block; }
     body > footer > div.copy {
-      width: 75%;
+      width: 85%;
       height: 130px;
       margin: 0 auto; }
       body > footer > div.copy > div:nth-last-of-type(2) > p {
-        font-size: 13px;
+        font-size: 14px;
         color: #6a6a6a; }
         body > footer > div.copy > div:nth-last-of-type(2) > p > a {
           text-decoration: none;
