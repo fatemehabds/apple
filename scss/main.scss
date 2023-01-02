@@ -1836,7 +1836,7 @@
     }
     > div.slider {
       width: 95%;
-      height: 700px;
+      height: 600px;
       background-color: #b9b8b8;
       margin: 5px auto;
       .swiper {
@@ -2502,7 +2502,7 @@
     }
     > div.slider {
       width: 95%;
-      height: 700px;
+      height: 500px;
       background-color: #b9b8b8;
       margin: 5px auto;
       .swiper {
@@ -3394,7 +3394,7 @@
     }
     > div.slider {
       width: 95%;
-      height: 700px;
+      height: 400px;
       background-color: #b9b8b8;
       margin: 5px auto;
       .swiper {
@@ -3694,7 +3694,7 @@
         no-repeat,
         center,
         flex,
-        45px,
+        10px,
         border-box,
         center
       );
@@ -3703,7 +3703,7 @@
         width: auto;
         h2 {
           align-content: center;
-          font-size: 30px;
+          font-size: 20px;
         }
         p {
           text-align: center;
@@ -4284,8 +4284,8 @@
       }
     }
     > div.slider {
-      width: 95%;
-      height: 700px;
+      width: 98%;
+      height: 350px;
       background-color: #b9b8b8;
       margin: 5px auto;
       .swiper {
@@ -4625,7 +4625,7 @@
           );
           &:hover {
             text-decoration: underline;
-            font-size: 24px;
+            font-size: 17px;
           }
           text-align: center;
           margin-top: 20px;
@@ -4850,9 +4850,11 @@
       object-fit: cover;
       background-size: 1200px 500px;
       background-position: center;
-      position: relative;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding-bottom: 30px;
       > div {
-        position: absolute;
         bottom: 15px;
         right: 80px;
         display: flex;
@@ -4860,10 +4862,15 @@
         justify-content: center;
         align-items: center;
         width: auto;
-        > h2,
-        p {
+        > h2 {
+          font-size: 20px;
           color: $wcolor;
           text-align: center;
+        }
+        > p {
+          color: $wcolor;
+          text-align: center;
+          font-size: 12px;
         }
         > a {
           @include atag(
@@ -5178,8 +5185,8 @@
       }
     }
     > div.slider {
-      width: 95%;
-      height: 700px;
+      width: 97%;
+      height: 330px;
       background-color: #b9b8b8;
       margin: 5px auto;
       .swiper {
